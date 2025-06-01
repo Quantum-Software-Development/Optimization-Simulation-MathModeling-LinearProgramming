@@ -1817,6 +1817,8 @@ After running Solver, you should get a solution like:
 
 - [Exercise_2](https://github.com/Quantum-Software-Development/Optimization-Simulation-MathModeling-LinearProgramming/tree/fea46e9b77b854da12b49ab2a73b1506221e6548/class__12-%20Shortest%20Path-Dijkstra's%20Algorithm/Exerc_2-Applying%20Dijkstra's%20Algorithm%20to%20the%20Shortest%20Path%20Problem) - Applying Dijkstra's Algorithm to the Shortest Path Problem /
 
+- [Exercise_3](https://github.com/Quantum-Software-Development/Optimization-Simulation-MathModeling-LinearProgramming/tree/cd9194aa220bb6f509ef57d4d3a37b6e296a8a51/class__12-%20Shortest%20Path-Dijkstra's%20Algorithm/Exerc_3-Applying%20Dijkstra's%20Algorithm%20to%20the%20Shortest%20Path%20Problem) - Applying Dijkstra's Algorithm to the Shortest Path Problem
+
 
 
 ### 🚜 Under Construction
