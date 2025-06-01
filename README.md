@@ -1809,7 +1809,7 @@ After running Solver, you should get a solution like:
 # XIV - Optimization and Simulation [Shortest Path ](): 
 
 
-#### ➢ [Click here](h)to access Theoretical and Pratical Material. 
+#### ➢ [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-MathModeling-LinearProgramming/blob/96cd078e7dde5d17aee761c2b9e72054e65ea8d1/class__12-%20Shortest%20Path-Dijkstra's%20Algorithm/Workbook%20Shorter%20Path%20LP%20Dijkstra's%20Algorithm.pdf)to access Theoretical and Pratical Material. 
 
 #### ➣ [Click here]() and access Optimization and Simulation Shortest Path Exercises using Algorithm de DijkstraE, Excel Solver and Python 🐍
 
