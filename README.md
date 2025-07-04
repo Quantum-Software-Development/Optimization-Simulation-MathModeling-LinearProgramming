@@ -1074,7 +1074,7 @@ x_2 = 2 → horizontal line
 
 <br>
 
-### [Step 2]()  ➢ Identify the Feasible Region:
+## [Step 2]()  ➢ Identify the Feasible Region:
 
 - The feasible region is the intersection of all shaded regions that satisfy the constraints.
 - Must include $x_1 \geq 0$ and $x_2 \geq 0$.
@@ -1087,7 +1087,7 @@ x_1 \geq 0$ and $x_2 \geq 0
 
 <br><br>
 
-###  [Step 3]() ➢ Find Intersection Points (Vertices):
+##  [Step 3]() ➢ Find Intersection Points (Vertices):
 
  <br> 
 
@@ -1142,7 +1142,7 @@ Intersection of x_1 + 3x_2 = 7 and 2x_1 + 2x_2 = 8:
 
 <br><br>
 
-### [Step 4]() ➢ Evaluate Objective Function at Each Vertex:
+## [Step 4]() ➢ Evaluate Objective Function at Each Vertex:
 
 ## Feasible Vertices:
 
@@ -1230,7 +1230,7 @@ The transportation problem is a type of **linear programming** model where the o
 
 <br>
 
-### [The Case of Unbalanced Systems]():
+## [The Case of Unbalanced Systems]():
 
 The standard transportation model assumes total supply equals total demand. However, in real-world scenarios, systems can be **unbalanced**.
 
@@ -1404,7 +1404,7 @@ This is a method to generate an initial feasible solution without considering tr
 
 <br>
 
-### ➢ [Steps]():
+## ➢ [Steps]():
 
 1. **Start in the top-left (northwest) corner** of the transportation table.
    - This is always cell $begin:math:text$ x_{11} $end:math:text$.
@@ -1426,7 +1426,7 @@ This method takes into account the transportation costs to guide the initial all
 
 <br>
 
-### ➢ [Steps]():
+## ➢ [Steps]():
 
 1. **Identify the cell with the lowest unit cost** in the cost matrix among the remaining unallocated cells.
 2. **Allocate as much as possible** to this cell, without exceeding supply or demand constraints.
@@ -1496,7 +1496,7 @@ The initial solution obtained via the Northwest Corner Method has a total cost o
 
 <br>
 
-### [Step 1](): Optimality Check Using Multipliers
+## [Step 1](): Optimality Check Using Multipliers
 
 #### - [**Multipliers calculation**]():
   
@@ -1509,10 +1509,10 @@ u_1 = 0, leading to v_1 = 12, u_2 = 6, v_2 = 18, u_3 = -3, and v_3 = 37.
     
 ### - [**Reduced costs** for non-basic variables]():
     
-#### - $\bar{c}_{12} = -4$
-#### - $\bar{c}_{13} = 7$
-#### - $\bar{c}_{23} = 11$
-#### - $\bar{c}_{31} = -13$
+### - $\bar{c}_{12} = -4$
+### - $\bar{c}_{13} = 7$
+### - $\bar{c}_{23} = 11$
+### - $\bar{c}_{31} = -13$
 
 ```latex
 \bar{c}_{12} = -4
@@ -1521,17 +1521,17 @@ u_1 = 0, leading to v_1 = 12, u_2 = 6, v_2 = 18, u_3 = -3, and v_3 = 37.
 \bar{c}_{31} = -13
 ```
 
-#### - [**Negative reduced costs indicate non-optimality**]().
+### - [**Negative reduced costs indicate non-optimality**]().
 
 <br>
 
 ## [Step 2](): Improving the Solution:
 
-##### - **Entering variable**: $x_{31}$ (most negative reduced cost: $-13$).
+### - **Entering variable**: $x_{31}$ (most negative reduced cost: $-13$).
 
 ### - **Loop construction**: Adjustments involve $x_{31}$, $x_{32}$, $x_{22}$, and $x_{21}$, with a minimum adjustment of 10 units.
  
-##### - **Updated solution**:
+### - **Updated solution**:
   
 ### - $x_{31} = 10$, $x_{21} = 10$, $x_{22} = 130$, $x_{32} = 0$.
 
@@ -1543,9 +1543,9 @@ x_{31} = 10, x_{21} = 10, x_{22} = 130, x_{32} = 0\
  
 <br>
 
-### [Step 3](): Rechecking Optimality:
+## [Step 3](): Rechecking Optimality:
 
-##### - **Recalculated multipliers** (after correction)
+### - **Recalculated multipliers** (after correction)
   
 ### -  $u =$, $v =$.
 
@@ -1553,8 +1553,9 @@ x_{31} = 10, x_{21} = 10, x_{22} = 130, x_{32} = 0\
 u =$, $v =
 ```
 
+<br>
     
-#### - **New reduced costs**:
+### - **New reduced costs**:
    
 #### -  c̄₁₂ = -4, c̄₁₃ = -6, c̄₂₃ = -2, c̄₃₁ = 0
 
@@ -1568,7 +1569,7 @@ u =$, $v =
 
 ### [Final Solution Status]():
 
-#### - The improved solution after one iteration is not optimal. Continued iterations are required, focusing on variables like $x_{13}$ (reduced cost: $-6$) to further reduce costs.
+### - The improved solution after one iteration is not optimal. Continued iterations are required, focusing on variables like $x_{13}$ (reduced cost: $-6$) to further reduce costs.
   
 #### - The transportation algorithm must [repeat]() until [all reduced costs]() are non-negative.
 
@@ -1606,9 +1607,9 @@ u =$, $v =
 
 <br>
 
-### [Step 1](): Check Optimality (MODI Method)
+## [Step 1](): Check Optimality (MODI Method)
 
-#### [1.1]() - Calculate Dual Variables $\( u_i \) and \( v_j \)$
+### [1.1](): Calculate Dual Variables $\( u_i \) and \( v_j \)$
 
 For basic variables, solve the equation $u_i + v_j = c_{ij}$:  
 
@@ -1618,10 +1619,20 @@ For basic variables, solve the equation $u_i + v_j = c_{ij}$:
   - $u_2 + v_2 = 24 \implies v_2 = 18$
   - $u_3 + v_2 = 15 \implies u_3 = -3$
   - $u_3 + v_3 = 34 \implies v_3 = 37$
+
+
+```latex
+Let \( u_1 = 0 \):
+  - \( u_1 + v_1 = 12 \implies v_1 = 12 \)
+  - \( u_2 + v_1 = 18 \implies u_2 = 6 \)
+  - \( u_2 + v_2 = 24 \implies v_2 = 18 \)
+  - \( u_3 + v_2 = 15 \implies u_3 = -3 \)
+  - \( u_3 + v_3 = 34 \implies v_3 = 37 \)
+```
  
  <br> 
 
-#### **Result:**  
+### **Result:**  
 
 $$
 \begin{align*}
@@ -1640,7 +1651,7 @@ v_1 &= 12, \quad v_2 = 18, \quad v_3 = 37
 
 <br>
 
-#### [1.2]() -  Compute Reduced Costs for Non-Basic Variables  
+### [1.2]():  Compute Reduced Costs for Non-Basic Variables  
 
 $$
 \bar{c}_{ij} = u_i + v_j - c_{ij}
@@ -1653,7 +1664,20 @@ $$
 
 <br>
 
+ Non-Basic Variable | Reduced Cost              | Value  |
+|--------------------|---------------------------|--------|
+| \( x_{12} \)       | \( 0 + 18 - 22 = -4 \)    | \(-4\) |
+| \( x_{13} \)       | \( 0 + 37 - 30 = 7 \)     | \(7\)  |
+| \( x_{23} \)       | \( 6 + 37 - 32 = 11 \)    | \(11\) |
+| \( x_{31} \)       | \( -3 + 12 - 22 = -13 \)  | \(-13\)|
 
+<br>
+
+### **Conclusion:** Negative reduced costs $\( x_{12}, x_{31} \)$ indicate the [solution is **not optimal]()**.
+
+<br>
+
+## [Step 2](): Improve the Solution
 
 
 
