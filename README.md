@@ -1598,14 +1598,17 @@ u =$, $v =
 
 <br>
 
-
+///////////////🚛🚛🚛🚑🚑🚑🚒🚒🚒/////// UNDER CONSTRUCTION//////
+  
 ## [Transportation Problem Solution]():
 
 ### [**Problem Statement**]()  
 
-### Determine the optimal solution for the transportation problem using the transportation algorithm, starting from the initial basic feasible solution obtained by the Northwest Corner Method.
+#### Determine the optimal solution for the transportation problem using the transportation algorithm, starting from the initial basic feasible solution obtained by the Northwest Corner Method.
 
-### [Problem Data]():
+
+
+#### [Problem Data]():
 
 
 |       | Consumer 1 | Consumer 2 | Consumer 3 | Supply |
@@ -1618,20 +1621,21 @@ u =$, $v =
 
 <br>
 
-### [**Initial Solution (Northwest Corner Method)** ](): 
+#### [**Initial Solution (Northwest Corner Method)** ](): 
 
 - \( x_{11} = 100 \)
 - \( x_{21} = 20 \)
 - \( x_{22} = 120 \)
 - \( x_{32} = 10 \)
 - \( x_{33} = 150 \)
-- Total Cost: \( z = 9690 \)
+
+- Total Cost: $\( z = 9690 \)$
 
 <br>
 
 ## [Step 1](): Check Optimality (MODI Method)
 
-### [1.1](): Calculate Dual Variables $\( u_i \) and \( v_j \)$
+#### [1.1](): Calculate Dual Variables $\( u_i \) and \( v_j \)$
 
 For basic variables, solve the equation $u_i + v_j = c_{ij}$:  
 
@@ -1654,7 +1658,7 @@ Let \( u_1 = 0 \):
  
  <br> 
 
-### **Result:**  
+#### **Result:**  
 
 $$
 \begin{align*}
@@ -1673,7 +1677,7 @@ v_1 &= 12, \quad v_2 = 18, \quad v_3 = 37
 
 <br>
 
-### [1.2]():  Compute Reduced Costs for Non-Basic Variables  
+#### [1.2]():  Compute Reduced Costs for Non-Basic Variables  
 
 $$
 \bar{c}_{ij} = u_i + v_j - c_{ij}
@@ -1695,7 +1699,7 @@ $$
 
 <br>
 
-#### ***Conclusion:** Negative reduced costs $\( x_{12}, x_{31} \)$ indicate the [solution is **not optimal]()***.
+#### ***Conclusion:** Negative reduced costs $\( x_{12}$, $x_{31} \)$ indicate the [solution is **not optimal]()***.
 
 <br>
 
@@ -1704,9 +1708,9 @@ $$
 
 #### [2.1](). Select Entering Variable
 
-Most negative reduced cost: $\bar{c}_{31} = -13$.  
+Most negative reduced cost: $\bar{c}_{31} = -13$
 
-**Entering variable:** $x_{31}$.
+**Entering variable:** $x_{31}$
 
 
 <br>
@@ -1716,13 +1720,14 @@ Most negative reduced cost: $\bar{c}_{31} = -13$.
 
 <br>
 
-- **Loop Path**: $x_{31} \rightarrow x_{32} \rightarrow x_{22} \rightarrow x_{21} \rightarrow x_{31}$.  
+- **Loop Path**: $x_{31} \rightarrow x_{32} \rightarrow x_{22} \rightarrow x_{21} \rightarrow x_{31}$. 
 
 
 - **Adjustment Values**:  
 
-  - Subtract from $x_{32}$ (10) and $x_{21}$ (20).  
-  - Minimum value to adjust: $\min(10, 20) = 10$.
+  - Subtract from $x_{32}$ (10) and $x_{21}$ (20)
+
+   - Minimum value to adjust: $\min(10, 20) = 10$
 
 <br>
 
@@ -1732,20 +1737,20 @@ Most negative reduced cost: $\bar{c}_{31} = -13$.
 
 | Variable     | Adjustment | New Value |
 |--------------|------------|-----------|
-| $ x_{31} $   | $+10$      | $10$      |
-| $ x_{32} $   | $-10$      | $0$       |
-| $ x_{22} $   | $+10$      | $130$     |
-| $ x_{21} $   | $-10$      | $10$      |
+| $x_{31}$     | $+10$      | $10$      |
+| $x_{32}$     | $-10$      | $0$       |
+| $x_{22}$     | $+10$      | $130$     |
+| $x_{21}$     | $-10$      | $10$      |
 
 <br>
 
 #### [**New Basic Variables:**]()  
 
-- $ x_{11} = 100 $  
-- $ x_{21} = 10 $  
-- $ x_{22} = 130 $  
-- $ x_{31} = 10 $  
-- $ x_{33} = 150 $
+- $x_{11} = 100$  
+- $x_{21} = 10$  
+- $x_{22} = 130$  
+- $x_{31} = 10$  
+- $x_{33} = 150$
 
 <br>
 
@@ -1760,7 +1765,7 @@ Most negative reduced cost: $\bar{c}_{31} = -13$.
 
 - [**Demands**]():  
 
-  - Consumer 1: $100 + 10 + 10 = 120 $ ✔️  
+  - Consumer 1: $100 + 10 + 10 = 120$ ✔️  
   - Consumer 2: $130$ ✔️  
   - Consumer 3: $150$ ✔️
 
