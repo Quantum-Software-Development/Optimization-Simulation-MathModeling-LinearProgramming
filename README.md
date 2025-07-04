@@ -47,23 +47,27 @@ Sim-opt combines simulation and optimization techniques to provide a comprehensi
 <br>
 
 **[Benefits]() of Sim-Opt**
-*   **[Analyzing uncertain scenarios]():** Sim-opt evaluates the impact of unpredictable events and helps plan strategies to manage risks[1].
-*   **[Optimizing processes]():** It identifies bottlenecks and opportunities for improvement and defines the best practices for various situations[1].
-*   **[Making informed decisions]():** Sim-opt bases decisions on data and simulations, reducing uncertainty and the risk of errors[1].
+*   **[Analyzing uncertain scenarios]():** Sim-opt evaluates the impact of unpredictable events and helps plan strategies to manage risk.
+*   **[Optimizing processes]():** It identifies bottlenecks and opportunities for improvement and defines the best practices for various situations.
+*   **[Making informed decisions]():** Sim-opt bases decisions on data and simulations, reducing uncertainty and the risk of errors.
 
 <br>
 
 **[How to Implement Optimization]() in Simulation Models**
 
-1.  **[Define decision variables]():** Identify the variables that affect the simulation model's outputs and will be tested by the optimization algorithm[3].
-2.  **[Define variable types and limits]():** Determine whether each decision variable is real or integer and set lower and upper limits. The optimization algorithm will search for solutions within these limits[3].
-3.  **[Define the objective function]():** Establish a function to evaluate the solutions tested by the algorithm. This function can be designed to minimize, maximize, or use both types of variables, depending on the study's objectives[3].
-4.  **[Select population size]():** Choose the number of solutions for the evolutionary algorithm. The population size affects the reliability and time required for the search. Also, define other parameters such as the required precision, significance level, and number of replications[3].
-5.  **[Analyze solutions]():** After the search, analyze the solutions found. Compare all solutions based on the objective function to identify the best and other competitive solutions[3].
+1.  **[Define decision variables]():** Identify the variables that affect the simulation model's outputs and will be tested by the optimization algorithm.
+
+2.  **[Define variable types and limits]():** Determine whether each decision variable is real or integer and set lower and upper limits. The optimization algorithm will search for solutions within these limits.
+
+3.  **[Define the objective function]():** Establish a function to evaluate the solutions tested by the algorithm. This function can be designed to minimize, maximize, or use both types of variables, depending on the study's objectives.
+
+4.  **[Select population size]():** Choose the number of solutions for the evolutionary algorithm. The population size affects the reliability and time required for the search. Also, define other parameters such as the required precision, significance level, and number of replications.
+
+5.  **[Analyze solutions]():** After the search, analyze the solutions found. Compare all solutions based on the objective function to identify the best and other competitive solutions.
 
 <br>
 
-The [key difference]() between sim-opt and other analytical tools is its [ability to model the complexity and dynamics of real-world systems](), including data uncertainty and variability[1]. This allows for the creation of more robust and adaptable plans[1].
+The [key difference]() between sim-opt and other analytical tools is its [ability to model the complexity and dynamics of real-world systems](), including data uncertainty and variability. This allows for the creation of more robust and adaptable plans.
 
 <br><br>
 
@@ -93,7 +97,7 @@ $$
 <br>
 
 
-## [Simplex Algorithm]()
+## [Simplex Algorithm]():
 
 The simplex algorithm is used to solve linear problems. Although there isn't a specific command for it, we can describe it in text or use tables to show the steps of the algorithm.
 
@@ -319,10 +323,15 @@ The **graphical method** for solving simple linear programming (LP) problems inv
 
 
 - **[Feasible Solution]():** A solution $\(x_1, x_2)\$ that satisfies all the constraints of the problem.
+
 - **[Feasible Region]():** The set of all feasible solutions. Graphically, this is a subregion of the plane formed by the intersection of the regions defined by the constraints. The feasible region is often a **convex polygon**.
+
 - **[Boundary Line]():** Each equality constraint or the equality part of an inequality constraint represents a straight line in the graph.
+
 - **[Semiplane]():** Each inequality constraint defines a half-plane on one side of its boundary line, including the line itself. The feasible region is the intersection of these semiplanes.
+
 - **[Vertices]() (Extreme Points):** The corner points of the feasible region, formed by the intersection of two or more boundary lines.
+
 - **[Optimal Solution]():** A feasible solution that yields the best (maximum for maximization problems, minimum for minimization problems) value of the objective function.
 
 
@@ -351,6 +360,7 @@ The **graphical method** for solving simple linear programming (LP) problems inv
  <br>
 
 5.  **[Determine the Optimal Solution]():**
+
     *   For a **maximization** problem, the vertex that yields the **largest** value of the objective function is the optimal solution [1, 6].
     *   For a **minimization** problem, the vertex that yields the **smallest** value of the objective function is the optimal solution [2, 7].
 
@@ -1016,7 +1026,7 @@ x_1 \geq 0, \quad x_2 \geq 0
 
 <br>
 
-###  [Step 1]() ➢ Plot the Constraints:
+###  [Step 1](): Plot the Constraints:
 
 Convert inequalities into equalities to draw the lines:
 
@@ -1074,7 +1084,7 @@ x_2 = 2 → horizontal line
 
 <br>
 
-## [Step 2]()  ➢ Identify the Feasible Region:
+## [Step 2](): Identify the Feasible Region:
 
 - The feasible region is the intersection of all shaded regions that satisfy the constraints.
 - Must include $x_1 \geq 0$ and $x_2 \geq 0$.
@@ -1087,7 +1097,7 @@ x_1 \geq 0$ and $x_2 \geq 0
 
 <br><br>
 
-##  [Step 3]() ➢ Find Intersection Points (Vertices):
+##  [Step 3](): Find Intersection Points (Vertices):
 
  <br> 
 
@@ -1142,7 +1152,7 @@ Intersection of x_1 + 3x_2 = 7 and 2x_1 + 2x_2 = 8:
 
 <br><br>
 
-## [Step 4]() ➢ Evaluate Objective Function at Each Vertex:
+## [Step 4](): Evaluate Objective Function at Each Vertex:
 
 ## Feasible Vertices:
 
@@ -1167,7 +1177,7 @@ Intersection of x_1 + 3x_2 = 7 and 2x_1 + 2x_2 = 8:
 
 <br><br>
 
-##  [Step 5]() ➢ Check Feasibility:
+##  [Step 5](): Check Feasibility:
 
 - **(2,2)** violates: $x_1 + 3x_2 = 2 + 6 = 8 > 7$ ❌
 - All others: ✅
@@ -1230,7 +1240,7 @@ The transportation problem is a type of **linear programming** model where the o
 
 <br>
 
-## [The Case of Unbalanced Systems]():
+### [The Case of Unbalanced Systems]():
 
 The standard transportation model assumes total supply equals total demand. However, in real-world scenarios, systems can be **unbalanced**.
 
@@ -1408,10 +1418,13 @@ This is a method to generate an initial feasible solution without considering tr
 
 1. **Start in the top-left (northwest) corner** of the transportation table.
    - This is always cell $begin:math:text$ x_{11} $end:math:text$.
+
 2. **Allocate as much as possible** to the selected cell, respecting the available supply and demand.
+
 3. **Block the row or column** where the supply or demand has been fully used (but only one if both are zero simultaneously).
    - Mark the blocked row/column with an 'x'.
    - This ensures that some basic variables have zero values (necessary for basic feasible solution).
+
 4. **Repeat** the steps with the next unblocked cell in the top-left of the remaining matrix.
 
 🔁 Continue until all cells are either allocated or blocked.
@@ -1429,9 +1442,13 @@ This method takes into account the transportation costs to guide the initial all
 ## ➢ [Steps]():
 
 1. **Identify the cell with the lowest unit cost** in the cost matrix among the remaining unallocated cells.
+
 2. **Allocate as much as possible** to this cell, without exceeding supply or demand constraints.
+
 3. **Adjust the supply and demand** for the row and column of the allocated cell.
+
 4. **Remove** (cross out) the row or column where supply or demand becomes zero. If both are zero simultaneously, cross out only one to maintain feasibility.
+
 5. **Repeat** the steps until all supplies and demands are met.
 
 <br>
@@ -1451,7 +1468,7 @@ This method takes into account the transportation costs to guide the initial all
  
 <br>
 
-This makes the model highly applicable to **supply chain risk management, disaster response logistics, and critical infrastructure planning**.
+### This makes the model highly applicable to **supply chain risk management, disaster response logistics, and critical infrastructure planning**.
 
 <br>
 
@@ -1477,7 +1494,7 @@ The transportation problem provides a clear, visual way to:
 <br>
 
 
-It's a cornerstone of **Operational Research**, **Logistics**, and **Decision Science**.
+### It's a cornerstone of **Operational Research**, **Logistics**, and **Decision Science**.
 
 <br>
 
@@ -1498,9 +1515,9 @@ The initial solution obtained via the Northwest Corner Method has a total cost o
 
 ## [Step 1](): Optimality Check Using Multipliers
 
-#### - [**Multipliers calculation**]():
+### - [**Multipliers calculation**]():
   
-#### - Set $u_1 = 0$, leading to $v_1 = 12$, $u_2 = 6$, $v_2 = 18$, $u_3 = -3$, and $v_3 = 37$.
+### - Set $u_1 = 0$, leading to $v_1 = 12$, $u_2 = 6$, $v_2 = 18$, $u_3 = -3$, and $v_3 = 37$.
 
 ```latex
 u_1 = 0, leading to v_1 = 12, u_2 = 6, v_2 = 18, u_3 = -3, and v_3 = 37.
@@ -1523,9 +1540,12 @@ u_1 = 0, leading to v_1 = 12, u_2 = 6, v_2 = 18, u_3 = -3, and v_3 = 37.
 
 ### - [**Negative reduced costs indicate non-optimality**]().
 
+
 <br>
 
+
 ## [Step 2](): Improving the Solution:
+
 
 ### - **Entering variable**: $x_{31}$ (most negative reduced cost: $-13$).
 
@@ -1557,7 +1577,7 @@ u =$, $v =
     
 ### - **New reduced costs**:
    
-#### -  c̄₁₂ = -4, c̄₁₃ = -6, c̄₂₃ = -2, c̄₃₁ = 0
+### -  c̄₁₂ = -4, c̄₁₃ = -6, c̄₂₃ = -2, c̄₃₁ = 0
 
 ```latex
 \bar{c}_{12} = -4,\quad \bar{c}_{13} = -6,\quad \bar{c}_{23} = -2,\quad \bar{c}_{31} = 0
@@ -1571,19 +1591,21 @@ u =$, $v =
 
 ### - The improved solution after one iteration is not optimal. Continued iterations are required, focusing on variables like $x_{13}$ (reduced cost: $-6$) to further reduce costs.
   
-#### - The transportation algorithm must [repeat]() until [all reduced costs]() are non-negative.
+### - The transportation algorithm must [repeat]() until [all reduced costs]() are non-negative.
 
-#### This analysis highlights the iterative nature of the transportation algorithm and the [importance of accurately recalculating multipliers and reduced costs at each step]().
+### This analysis highlights the iterative nature of the transportation algorithm and the [importance of accurately recalculating multipliers and reduced costs at each step]().
+
 
 <br>
+
 
 ## [Transportation Problem Solution]():
 
 ### [**Problem Statement**]()  
 
-#### Determine the optimal solution for the transportation problem using the transportation algorithm, starting from the initial basic feasible solution obtained by the Northwest Corner Method.
+### Determine the optimal solution for the transportation problem using the transportation algorithm, starting from the initial basic feasible solution obtained by the Northwest Corner Method.
 
-#### [Problem Data]():
+### [Problem Data]():
 
 
 |       | Consumer 1 | Consumer 2 | Consumer 3 | Supply |
@@ -1596,7 +1618,7 @@ u =$, $v =
 
 <br>
 
-#### [**Initial Solution (Northwest Corner Method)** ](): 
+### [**Initial Solution (Northwest Corner Method)** ](): 
 
 - \( x_{11} = 100 \)
 - \( x_{21} = 20 \)
