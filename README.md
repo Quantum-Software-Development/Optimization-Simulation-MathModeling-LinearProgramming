@@ -1608,16 +1608,50 @@ u =$, $v =
 
 ### [Step 1](): Check Optimality (MODI Method)
 
-#### **1.1 Calculate Dual Variables \( u_i \) and \( v_j \)**  
+#### [1.1]() - Calculate Dual Variables $\( u_i \) and \( v_j \)$
 
-For basic variables, solve $\( u_i + v_j = c_{ij} \)$:  
+For basic variables, solve the equation $u_i + v_j = c_{ij}$:  
 
-- Let \( u_1 = 0 \):
-  - $\( u_1 + v_1 = 12 \implies v_1 = 12 \)
-  - \( u_2 + v_1 = 18 \implies u_2 = 6 \)
-  - \( u_2 + v_2 = 24 \implies v_2 = 18 \)
-  - \( u_3 + v_2 = 15 \implies u_3 = -3 \)
-  - \( u_3 + v_3 = 34 \implies v_3 = 37 \)
+- Let $u_1 = 0$:
+  - $u_1 + v_1 = 12 \implies v_1 = 12$
+  - $u_2 + v_1 = 18 \implies u_2 = 6$
+  - $u_2 + v_2 = 24 \implies v_2 = 18$
+  - $u_3 + v_2 = 15 \implies u_3 = -3$
+  - $u_3 + v_3 = 34 \implies v_3 = 37$
+ 
+ <br> 
+
+#### **Result:**  
+
+$$
+\begin{align*}
+u_1 &= 0, \quad u_2 = 6, \quad u_3 = -3 \\
+v_1 &= 12, \quad v_2 = 18, \quad v_3 = 37
+\end{align*}
+$$
+
+
+```latex
+\begin{align*}
+u_1 &= 0, \quad u_2 = 6, \quad u_3 = -3 \\
+v_1 &= 12, \quad v_2 = 18, \quad v_3 = 37
+\end{align*}
+```
+
+<br>
+
+#### [1.2]() -  Compute Reduced Costs for Non-Basic Variables  
+
+$$
+\bar{c}_{ij} = u_i + v_j - c_{ij}
+$$
+
+
+```latex
+\bar{c}_{ij} = u_i + v_j - c_{ij}
+```
+
+<br>
 
 
 
