@@ -1846,6 +1846,10 @@ v_1 &= 12, \quad v_2 = 18, \quad v_3 = 24 \\
 $$
 
 ```latex
+\begin{align*}
+u_1 &= 0, \quad u_2 = 6, \quad u_3 = 10 \\
+v_1 &= 12, \quad v_2 = 18, \quad v_3 = 24 \\
+\end{align*}
 ```
 
 <br>
