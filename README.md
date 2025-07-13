@@ -1815,19 +1815,23 @@ z &= (12 \times 100) + (18 \times 10) + (24 \times 130) + (22 \times 10) + (34 \
 
 - [**For the new basic variables**]():  
 
-- $ u_1 + v_1 = 12 \implies u_1 = 0, v_1 = 12$  
-- $ u_2 + v_1 = 18 \implies u_2 = 6$  
-- $ u_2 + v_2 = 24 \implies v_2 = 18$  
-- $ u_3 + v_1 = 22 \implies u_3 = 10$  
-- $ u_3 + v_3 = 34 \implies v_3 = 24$
 
 - $u_1 + v_1 = 12 \implies u_1 = 0,\ v_1 = 12$
 - $u_2 + v_1 = 18 \implies u_2 = 6$
 - $u_2 + v_2 = 24 \implies v_2 = 18$
 - $u_3 + v_1 = 22 \implies u_3 = 10$
 - $u_3 + v_3 = 34 \implies v_3 = 24$
-  
 
+<br>
+
+```latex
+-  u_1 + v_1 = 12 \implies u_1 = 0, v_1 = 12
+-  u_2 + v_1 = 18 \implies u_2 = 6  
+-  u_2 + v_2 = 24 \implies v_2 = 18 
+-  u_3 + v_1 = 22 \implies u_3 = 10 
+-  u_3 + v_3 = 34 \implies v_3 = 24
+```  
+  
 <br>
 
 - [**Result**]():  
