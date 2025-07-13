@@ -1699,14 +1699,7 @@ v_1 &= 12, \quad v_2 = 18, \quad v_3 = 37
 
 <br>
 
-#### ***Conclusion:** Negative reduced costs $(x_{12}, x_{31})$ indicate the [solution is **not optimal]()***.
-
-**Conclusion:** Negative reduced costs (x12, x31) indicate the solution is **not optimal**.
-
-(x_{12}, x_{31})
-$(x_{12}, x_{31})$
-$\(x_{12}, x_{31})$
-
+#### ***Conclusion:** Negative reduced costs (x12, x31) indicate the [solution is **not optimal]()***.
 
 
 <br>
