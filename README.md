@@ -1680,21 +1680,7 @@ v_1 &= 12, \quad v_2 = 18, \quad v_3 = 37
 #### [1.2]():  Compute Reduced Costs for Non-Basic Variables  
 
 
-c̄ᵢⱼ = uᵢ + vⱼ - cᵢⱼ
-
-bar{c}_{ij} = u_i + v_j - c_{ij}
-
-
-$\bar{c}_{ij} = u_i + v_j - c_{ij}$
-
-
-$\bar{c}_{ij} = u_i + v_j - c_{ij}$
-
-$$
-\begin{align*}
-\bar{c}_{ij} = u_i + v_j - c_{ij}
-\end{align*}
-$$
+####  c̄ᵢⱼ = uᵢ + vⱼ - cᵢⱼ
 
 <br>
 
