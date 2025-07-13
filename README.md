@@ -1884,9 +1884,6 @@ Most negative reduced cost: $\bar{c}_{13} = -6$.
 
 <br>
 
-
----\\\ UNDER CONTR🚛🚛🚛
-
 #### [4.2](). Construct the Closed Loop
 
 - **Loop Path**: $ x_{13} \rightarrow x_{33} \rightarrow x_{31} \rightarrow x_{11} \rightarrow x_{13} $.  
