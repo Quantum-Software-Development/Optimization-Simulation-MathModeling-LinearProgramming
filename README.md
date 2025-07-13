@@ -1691,7 +1691,9 @@ $\bar{c}_{ij} = u_i + v_j - c_{ij}$
 $\bar{c}_{ij} = u_i + v_j - c_{ij}$
 
 $$
+\begin{align*}
 \bar{c}_{ij} = u_i + v_j - c_{ij}
+\end{align*}
 $$
 
 <br>
