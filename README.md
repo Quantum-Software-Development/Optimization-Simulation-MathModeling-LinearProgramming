@@ -1854,6 +1854,8 @@ v_1 &= 12, \quad v_2 = 18, \quad v_3 = 24 \\
 
 <br>
 
+---\\\ UNDER CONTR🚛🚛🚛
+
 ### **3.2 Compute Reduced Costs Again**  
 
 <br>
@@ -1867,10 +1869,7 @@ v_1 &= 12, \quad v_2 = 18, \quad v_3 = 24 \\
 
 <br>
 
-**Conclusio** Negative reduced costs ($ x_{12}, x_{13}, x_{23} $) mean the solution is **still not optimal**. Further iterations are required.
-
-[**Conclusion**](): Negative reduced costs ($x_{12}$, $x_{13}$, $x_{23}$) mean the solution is **still not optimal**. Further iterations are required.
-
+#### [**Conclusion**](): Negative reduced costs ($x_{12}$, $x_{13}$, $x_{23}$) mean the solution is **still not optimal**. Further iterations are required.
 
 <br>
 
