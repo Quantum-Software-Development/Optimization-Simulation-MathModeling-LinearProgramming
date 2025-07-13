@@ -1665,6 +1665,8 @@ v_1 &= 12, \quad v_2 = 18, \quad v_3 = 37
 \end{align*}
 $$
 
+ 
+ <br> 
 
 ```latex
 \begin{align*}
@@ -1677,10 +1679,16 @@ v_1 &= 12, \quad v_2 = 18, \quad v_3 = 37
 
 #### [1.2]():  Compute Reduced Costs for Non-Basic Variables  
 
+$\bar{c}_{ij} = u_i + v_j - c_{ij}$
+
+
+$\bar{c}_{ij} = u_i + v_j - c_{ij}$
+
 $$
 \bar{c}_{ij} = u_i + v_j - c_{ij}
 $$
 
+<br>
 
 ```latex
 \bar{c}_{ij} = u_i + v_j - c_{ij}
