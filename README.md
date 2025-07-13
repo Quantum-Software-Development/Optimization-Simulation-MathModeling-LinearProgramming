@@ -1597,14 +1597,12 @@ u =$, $v =
 
 
 <br>
-
-///////////////🚛🚛🚛🚑🚑🚑🚒🚒🚒/////// UNDER CONSTRUCTION//////
   
 ## [Transportation Problem Solution]():
 
 ### [**Problem Statement**]()  
 
-#### Determine the optimal solution for the transportation problem using the transportation algorithm, starting from the initial basic feasible solution obtained by the Northwest Corner Method.
+### Determine the optimal solution for the transportation problem using the transportation algorithm, starting from the initial basic feasible solution obtained by the Northwest Corner Method.
 
 
 
