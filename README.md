@@ -1721,7 +1721,7 @@ Most negative reduced cost: $\bar{c}_{31} = -13$
 
 <br>
 
-- **Loop Path**: $x_{31} \rightarrow x_{32} \rightarrow x_{22} \rightarrow x_{21} \rightarrow x_{31}$. 
+- **Loop Path**: $x_{31} \rightarrow x_{32} \rightarrow x_{22} \rightarrow x_{21} \rightarrow x_{31}$
 
 
 - **Adjustment Values**:  
@@ -1732,7 +1732,7 @@ Most negative reduced cost: $\bar{c}_{31} = -13$
 
 <br>
 
-#### [2.3](). Update Basic Variables**  
+#### [2.3](). **Update Basic Variables**  
 
 <br>
 
@@ -1755,7 +1755,7 @@ Most negative reduced cost: $\bar{c}_{31} = -13$
 
 <br>
 
-#### [2.4](). Verify Feasibility**  
+#### [2.4](). **Verify Feasibility**  
 
 - [**Supplies**]():  
 
@@ -1773,7 +1773,7 @@ Most negative reduced cost: $\bar{c}_{31} = -13$
 
  <br>
 
-#### [2.5](). Calculate New Total Cost**  
+#### [2.5](). ** Calculate New Total Cost**  
 
 <br>
 
@@ -1784,6 +1784,16 @@ z &= (12 \times 100) + (18 \times 10) + (24 \times 130) + (22 \times 10) + (34 \
   &= \boxed{9820}
 \end{align*}
 $$
+
+<br>
+
+```latex
+\begin{align*}
+z &= (12 \times 100) + (18 \times 10) + (24 \times 130) + (22 \times 10) + (34 \times 150) \\
+  &= 1200 + 180 + 3120 + 220 + 5100 \\
+  &= \boxed{9820}
+\end{align*}
+```
 
 <br>
 
