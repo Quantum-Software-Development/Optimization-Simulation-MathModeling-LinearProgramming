@@ -1867,7 +1867,10 @@ v_1 &= 12, \quad v_2 = 18, \quad v_3 = 24 \\
 
 <br>
 
-**Conclusion:** Negative reduced costs ($ x_{12}, x_{13}, x_{23} $) mean the solution is **still not optimal**. Further iterations are required.
+**Conclusio** Negative reduced costs ($ x_{12}, x_{13}, x_{23} $) mean the solution is **still not optimal**. Further iterations are required.
+
+[**Conclusion**](): Negative reduced costs ($x_{12}$, $x_{13}$, $x_{23}$) mean the solution is **still not optimal**. Further iterations are required.
+
 
 <br>
 
@@ -1880,6 +1883,9 @@ Most negative reduced cost: $\bar{c}_{13} = -6$.
 **Entering variable:** $x_{13}$.
 
 <br>
+
+
+---\\\ UNDER CONTR🚛🚛🚛
 
 #### [4.2](). Construct the Closed Loop
 
@@ -1956,12 +1962,7 @@ Recalculating reduced costs confirms all $ \bar{c}_{ij} \geq 0 $. **Optimal solu
 This is the optimal solution with all reduced costs non-negative.
 
 
-
-
-### Under Construction 🚛
-
-<br><br><br><br><br><br><br><br><br>
-
+<br>
  
 # XIII - [Designation]():
 
