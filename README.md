@@ -1339,6 +1339,7 @@ A  & 0  & 0  & 0 & 6 \\
 <br>
 
 🟡 The values in the matrix represent the **quantities transported**.  
+
 🟠 Quantities from the dummy origin A represent **unsatisfied demand**.
 
 <br>
@@ -1735,7 +1736,7 @@ v_1 &= 12, \quad v_2 = 18, \quad v_3 = 37
 
 <br>
 
-----///////////////
+
 
  Non-Basic Variable | Reduced Cost              | Value  |
 |--------------------|---------------------------|--------|
@@ -1744,9 +1745,16 @@ v_1 &= 12, \quad v_2 = 18, \quad v_3 = 37
 |  $x_{23}$          | $6 + 37 - 32 = 11$        | $11$   |
 |  $x_{31}$          | $-3 + 12 - 22 = -13$      |  $-13$ |
 
+
 <br>
 
 ```latex
+  Non-Basic Variable | Reduced Cost              | Value  |
+|--------------------|---------------------------|--------|
+| \( x_{12} \)       | \( 0 + 18 - 22 = -4 \)    | \(-4\) |
+| \( x_{13} \)       | \( 0 + 37 - 30 = 7 \)     | \(7\)  |
+| \( x_{23} \)       | \( 6 + 37 - 32 = 11 \)    | \(11\) |
+| \( x_{31} \)       | \( -3 + 12 - 22 = -13 \)  | \(-13\)|
 ```
 
 <br>
