@@ -1336,6 +1336,8 @@ A  & 0  & 0  & 0 & 6 \\
 |      |    |    |    |        |
 | **Demand** | 25 | 36 | 5  | **66** |
 
+<br>
+
 🟡 The values in the matrix represent the **quantities transported**.  
 🟠 Quantities from the dummy origin A represent **unsatisfied demand**.
 
@@ -1356,9 +1358,12 @@ A  & 20 & 1 & 5 & 6 \\
 \]
 ```
 
+<br>
+
 🟡 The values in the matrix represent the **quantities transported**.  
 🟠 $begin:math:text$ X_{A2} = 1 $end:math:text$, $begin:math:text$ X_{A3} = 5 $end:math:text$: These are **unsatisfied demands**.
 
+<br>
 
 ## 🧠 [Relation to Algorithms]()
 
@@ -1380,22 +1385,32 @@ These specialized algorithms are **faster** and **simpler** due to the regular s
 
 The transportation algorithm follows the **same logic as the Simplex method**, but with **simplifications** tailored to the structure of transportation problems:
 
+<br>
+
+
 ###  [1st Phase](): Initial Basic Feasible Solution
 
-We will use two methods to find a basic solution:
+- [We will use two methods to find a basic solution]():
+
+br>  
 
 - **Northwest Corner Method**
 - **Least Cost Method**
 
-These provide starting points for optimization.
+***These provide starting points for optimization***.
 
+<br>
 
 ###  [2nd Phase](): Optimality Check:
 
 After obtaining a feasible solution, we check for optimality using methods like:
 
+<br>
+
 - **MODI Method** (Modified Distribution)
 - **Stepping Stone Method**
+
+<br>
 
 These determine whether cost can be further reduced by adjusting flows along loops in the matrix.
 
@@ -1416,16 +1431,24 @@ This is a method to generate an initial feasible solution without considering tr
 
 ## ➢ [Steps]():
 
-1. **Start in the top-left (northwest) corner** of the transportation table.
+[1](). **Start in the top-left (northwest) corner** of the transportation table.
    - This is always cell $begin:math:text$ x_{11} $end:math:text$.
 
-2. **Allocate as much as possible** to the selected cell, respecting the available supply and demand.
+<br>
 
-3. **Block the row or column** where the supply or demand has been fully used (but only one if both are zero simultaneously).
+[2](). **Allocate as much as possible** to the selected cell, respecting the available supply and demand.
+
+<br>
+
+[3](). **Block the row or column** where the supply or demand has been fully used (but only one if both are zero simultaneously).
    - Mark the blocked row/column with an 'x'.
    - This ensures that some basic variables have zero values (necessary for basic feasible solution).
+  
+<br>
 
-4. **Repeat** the steps with the next unblocked cell in the top-left of the remaining matrix.
+[4](). **Repeat** the steps with the next unblocked cell in the top-left of the remaining matrix.
+
+<br>
 
 🔁 Continue until all cells are either allocated or blocked.
 
@@ -1441,15 +1464,23 @@ This method takes into account the transportation costs to guide the initial all
 
 ## ➢ [Steps]():
 
-1. **Identify the cell with the lowest unit cost** in the cost matrix among the remaining unallocated cells.
+[1](). **Identify the cell with the lowest unit cost** in the cost matrix among the remaining unallocated cells.
 
-2. **Allocate as much as possible** to this cell, without exceeding supply or demand constraints.
+<br>
 
-3. **Adjust the supply and demand** for the row and column of the allocated cell.
+[2](). **Allocate as much as possible** to this cell, without exceeding supply or demand constraints.
 
-4. **Remove** (cross out) the row or column where supply or demand becomes zero. If both are zero simultaneously, cross out only one to maintain feasibility.
+<br>
 
-5. **Repeat** the steps until all supplies and demands are met.
+[3](). **Adjust the supply and demand** for the row and column of the allocated cell.
+
+<br>
+
+[4](). **Remove** (cross out) the row or column where supply or demand becomes zero. If both are zero simultaneously, cross out only one to maintain feasibility.
+
+<br>
+
+[5](). **Repeat** the steps until all supplies and demands are met.
 
 <br>
    
