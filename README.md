@@ -1361,6 +1361,7 @@ A  & 20 & 1 & 5 & 6 \\
 <br>
 
 🟡 The values in the matrix represent the **quantities transported**.  
+
 🟠 $begin:math:text$ X_{A2} = 1 $end:math:text$, $begin:math:text$ X_{A3} = 5 $end:math:text$: These are **unsatisfied demands**.
 
 <br>
@@ -1741,17 +1742,16 @@ v_1 &= 12, \quad v_2 = 18, \quad v_3 = 37
 |  $x_{12}$          | $0 + 18 - 22 = -4$        |  $-4$  |
 |  $x_{13}$          | $0 + 37 - 30 = 7$         |  $7$   |
 |  $x_{23}$          | $6 + 37 - 32 = 11$        | $11$   |
-| \( x_{31} \)       | \( -3 + 12 - 22 = -13 \)  | \(-13\)|
-
-
-
-
-
-
+|  $x_{31}$          | $-3 + 12 - 22 = -13$      |  $-13$ |
 
 <br>
 
-#### ***Conclusion:** Negative reduced costs (x12, x31) indicate the [solution is **not optimal]()***.
+```latex
+```
+
+<br>
+
+#### ***Conclusion:** Negative reduced costs (x12, x31) indicate [the solution is **not optimal]()***.
 
 
 <br>
