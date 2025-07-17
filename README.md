@@ -372,7 +372,8 @@ $\(x_1\)$ and $\(x_2\)$
 
 <br>
 
-  $a_{i1}x_1 + a_{i2}x_2$ = $b_i$
+$a_{i1}x_1 + a_{i2}x_2$ = $b_i$
+
 
 <br>  
 
@@ -402,7 +403,8 @@ $\(x_1\)$ and $\(x_2\)$
   a_{i1}x_1 + a_{i2}x_2 \geq b_i
   ```
 
-    <br>
+<br>
+
 
 - **[Feasible Solution]():** A solution $\(x_1, x_2)\$ that satisfies all the constraints of the problem.
 
