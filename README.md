@@ -363,10 +363,11 @@ $\(x_1\)$ and $\(x_2\)$
 
 <br><br>
 
-- **[Constraints]():** These are linear inequalities or equalities that restrict the values the decision variables can take.
+### **[Constraints]():**
 
+These are linear inequalities or equalities that restrict the values the decision variables can take.
 
-<br><br>
+<br>
 
 - **[Equality constraint]():**
 
@@ -397,7 +398,7 @@ $a_{i1}x_1 + a_{i2}x_2$ = $b_i$
 <br><br>
     
 
-  - [Greater than or equal to constraint]():
+- [Greater than or equal to constraint]():
 
     $a_{i1}x_1$ + $a_{i2}x_2 \geq b_i$
 
