@@ -463,27 +463,27 @@ $a_{i1}x_1$ + $a_{i2}x_2 \geq b_i$
 
 ## [Possible Scenarios]()
 
-*   **Unique Optimal Solution:** The objective function achieves its maximum or minimum value at a single vertex of the feasible region [3, 5, 6].
+*   **Unique Optimal Solution:** The objective function achieves its maximum or minimum value at a single vertex of the feasible region.
 
-*   **Multiple Optimal Solutions:** The objective function achieves its optimal value at more than one point, typically along an edge connecting two adjacent vertices. In this case, all points on that edge are optimal solutions [5].
+*   **Multiple Optimal Solutions:** The objective function achieves its optimal value at more than one point, typically along an edge connecting two adjacent vertices. In this case, all points on that edge are optimal solutions.
 
-*   **Unbounded Feasible Region:** If the feasible region extends infinitely in some direction, the objective function might also be unbounded (it can increase or decrease indefinitely without reaching a maximum or minimum value) [5]. However, if an optimal solution exists even with an unbounded region, it will still occur at a vertex [5].
+*   **Unbounded Feasible Region:** If the feasible region extends infinitely in some direction, the objective function might also be unbounded (it can increase or decrease indefinitely without reaching a maximum or minimum value). However, if an optimal solution exists even with an unbounded region, it will still occur at a vertex.
 
-*   **Empty Feasible Region:** If the constraints are inconsistent and there are no points that satisfy all of them simultaneously, the feasible region is empty, and the linear programming problem has no solution [4].
+*   **Empty Feasible Region:** If the constraints are inconsistent and there are no points that satisfy all of them simultaneously, the feasible region is empty, and the linear programming problem has no solution.
 
   <br>
 
 ## [Theorem on Optimal Solutions]()
 
-If the feasible region of a linear programming problem is **non-empty and bounded**, then the objective function attains both a **maximum and a minimum value**, and these occur at **extreme points (vertices)** of the feasible region [5].
+If the feasible region of a linear programming problem is **non-empty and bounded**, then the objective function attains both a **maximum and a minimum value**, and these occur at **extreme points (vertices)** of the feasible region.
 
-If the feasible region is **unbounded**, and if the objective function attains a maximum or minimum value, it will also occur at an **extreme point (vertex)** [5].
+If the feasible region is **unbounded**, and if the objective function attains a maximum or minimum value, it will also occur at an **extreme point (vertex)**.
 
   <br>
 
 ## [Examples]()
 
-The source provides several examples [6-8] that illustrate the graphical method for both maximization and minimization problems with different sets of constraints. These examples demonstrate how to plot the constraints, identify the feasible region, find the vertices, and evaluate the objective function to determine the optimal solution and its value. For instance, Example 1 [6] finds the maximum of $x_1 + 2x_2$ subject to several constraints.
+The source provides several examples that illustrate the graphical method for both maximization and minimization problems with different sets of constraints. These examples demonstrate how to plot the constraints, identify the feasible region, find the vertices, and evaluate the objective function to determine the optimal solution and its value. For instance, Example 1  finds the maximum of $x_1 + 2x_2$ subject to several constraints.
 
   <br>
 
