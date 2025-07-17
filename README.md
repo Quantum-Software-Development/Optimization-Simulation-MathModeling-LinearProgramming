@@ -545,7 +545,7 @@ This example shows how to solve a Linear Programming (LP) problem using the **Si
 ### [Problem](): 
 
 
-### - [Maximize the objective function]():
+### [Maximize the objective function]():
 
 Z = 3x + 5y
 
@@ -565,8 +565,9 @@ x, y ≥ 0
 
 ### **Fill the spreadsheet with the following structure:**
 
+<br>
 
-### [*Variables and Objective*]()
+### - [*Variables and Objective*]()
 
 <br>
 
@@ -578,7 +579,7 @@ x, y ≥ 0
 
 <br>
 
-#### [*Constraints Left-Hand Side (LHS)*]()
+### - [*Constraints Left-Hand Side (LHS)*]()
 
 <br>
 
@@ -589,7 +590,7 @@ x, y ≥ 0
 
 <br>
 
-#### [*Constraints Right-Hand Side (RHS)*]()
+### - [*Constraints Right-Hand Side (RHS)*]()
 
 <br>
 
@@ -696,7 +697,7 @@ y &\geq 0 \\
 
 <br>
 
-### [*Solver Configuration*]():
+### - [*Solver Configuration*]():
 
 1. Set Objective: **B3**  
 2. To: **Maximize**  
@@ -711,7 +712,7 @@ y &\geq 0 \\
 
 <br>
 
-### [*Solution Output*]():
+### - [*Solution Output*]():
 
 After running Solver:
 
