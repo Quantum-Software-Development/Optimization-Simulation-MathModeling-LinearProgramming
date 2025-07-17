@@ -1272,7 +1272,9 @@ Intersection of x_1 + 3x_2 = 7 and 2x_1 + 2x_2 = 8:
 
 ## [Step 4](): Evaluate Objective Function at Each Vertex:
 
-## Feasible Vertices:
+### - [Feasible Vertices():
+
+<br>
 
 - A: (0, 0)
 - B: (0, 2)
@@ -1314,9 +1316,9 @@ Intersection of x_1 + 3x_2 = 7 and 2x_1 + 2x_2 = 8:
 | D     | 14  | No       |
 
 
-<br><br>
+<br>
 
-## 🏁 [Conclusion]():
+### 🏁 [Conclusion]():
 
 - **Optimal solution:** $x_1 = 3$, $x_2 = 0$
 - **Maximum value:** $Z = 12$
