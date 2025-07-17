@@ -1249,13 +1249,13 @@ Intersection of x_1 + 3x_2 = 7 and 2x_1 + 2x_2 = 8:
 
 <br>
 
-### [3](). [Intersection of() $x_1 + x_2 = 3$ and $x_2 = 2$:
+### [3](). [Intersection of]() $x_1 + x_2 = 3$ and $x_2 = 2$:
    - $x_1 = 1$
    - Point: **(1, 2)**
 
 <br>
 
-### [4](). [Intersection of() $2x_1 + 2x_2 = 8$ and $x_2 = 2$:
+### [4](). [Intersection of]() $2x_1 + 2x_2 = 8$ and $x_2 = 2$:
    - $x_1 = 2$
    - Point: **(2, 2)**
 
@@ -1272,7 +1272,7 @@ Intersection of x_1 + 3x_2 = 7 and 2x_1 + 2x_2 = 8:
 
 ## [Step 4](): Evaluate Objective Function at Each Vertex:
 
-### - [Feasible Vertices():
+### - [Feasible Vertices]():
 
 <br>
 
