@@ -115,6 +115,8 @@ a_{21} & a_{22}
 \end{bmatrix}
 $$
 
+<br>
+
 ```latex
 A =
 \begin{bmatrix}
@@ -133,14 +135,17 @@ $$
 y(t) = A e^{kt}
 $$
 
+<br>
+
 ```latex
 \y(t) = A e^{kt}
 ```
+
 <br>
 
 ##### ➢ [***Note***](): ***This equation represents a simple solution to an ordinary differential equation.***
 
-<br><br>
+<br>
 
 # II- [Modeling - Writing Mathematical Models]()
 
@@ -166,6 +171,8 @@ $$
 Z = 20x_1 + 12.5x_2
 $$
 
+<br>
+
 ```latex
 Z = 20x_1 + 12.5x_2
 ```
@@ -181,6 +188,8 @@ $$
     x_1 \geq 0, \quad x_2 \geq 0
 \end{cases}
 $$
+
+<br>
 
 ```latex
 \begin{cases}
