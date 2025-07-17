@@ -353,17 +353,17 @@ $\(x_1\)$ and $\(x_2\)$
 
 <br>  
 
-  $\max/\min \quad Z$ = $c_1x_1 + c_2x_2$
+$\max/\min \quad Z$ = $c_1x_1 + c_2x_2$
 
 <br>  
 
-  ```latex
-    Max/Min \quad Z = c_1x_1 + c_2x_2
-  ```
+```latex
+Max/Min \quad Z = c_1x_1 + c_2x_2
+```
 
 <br><br>
 
-### **[Constraints]():**
+### - **[Constraints]():**
 
 These are linear inequalities or equalities that restrict the values the decision variables can take.
 
@@ -375,32 +375,36 @@ These are linear inequalities or equalities that restrict the values the decisio
 
 $a_{i1}x_1 + a_{i2}x_2$ = $b_i$
 
+<br> 
 
-<br>  
+```latex
+\a_{i1}x_1 + a_{i2}x_2\ = b_i
+```
 
-  ```latex
-   a_{i1}x_1 + a_{i2}x_2 = b_i
-   ```
 
-  <br><br>
+<br><br>
 
 
 - **[Less than or equal to constraint]():**
 
-   $a_{i1}x_1$$ + $a_{i2}x_2 \leq b_i$
+<br> 
+
+$a_{i1}x_1$$ + $a_{i2}x_2 \leq b_i$
 
 <br>
 
-   ```latex
-   a_{i1}x_1 + a_{i2}x_2 \leq b_i
-   ```
+```latex
+ a_{i1}x_1 + a_{i2}x_2 \leq b_i
+```
 
 <br><br>
     
 
 - [Greater than or equal to constraint]():
 
-    $a_{i1}x_1$ + $a_{i2}x_2 \geq b_i$
+<br> 
+
+$a_{i1}x_1$ + $a_{i2}x_2 \geq b_i$
 
  <br>   
 
