@@ -631,7 +631,12 @@ This example presents a complete, step-by-step solution to a **Linear Programmin
 
 ### [**Maximize:**]():
 
+<br>
+
 $Z = 4x_1 + 3x_2$
+
+<br>
+
 
 ### [**Subject to:**]():
 
@@ -645,6 +650,7 @@ x_1 \geq 0, \quad x_2 \geq 0
 \end{cases}
 $$
 
+<br>
 
 ```latex
 \begin{cases}
@@ -655,8 +661,6 @@ x_2 \leq 2 \\
 x_1 \geq 0, \quad x_2 \geq 0
 \end{cases}
 ```
-
-
 
 <br>
 
@@ -680,7 +684,7 @@ x_1 \geq 0 \text{ e } x_2 \geq 0
 
 ### ✅ Standard Form Conversion:
 
-### [pIntroduce slack variables](): s₁, s₂, s₃, s₄
+### [Introduce slack variables](): s₁, s₂, s₃, s₄
 
 ### [The system becomes]():
 
