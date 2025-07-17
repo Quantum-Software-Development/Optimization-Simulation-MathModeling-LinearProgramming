@@ -1102,6 +1102,8 @@ x_1 \geq 0, \quad x_2 \geq 0
 
 ### - [**Objective:**]():
 
+<br>
+
 $Z = 4x_1 + 3x_2$
 
 <br>
@@ -1112,7 +1114,9 @@ Z = 4x_1 + 3x_2
 
 <br>
 
-### ➢ [**Subject to:**]():
+### - [**Subject to:**]():
+
+<br>
 
 $$
 \begin{cases}
@@ -1123,6 +1127,8 @@ x_2 \leq 2 \\
 x_1 \geq 0, \quad x_2 \geq 0
 \end{cases}
 $$
+
+<br>
 
 ```latex
 \begin{cases}
@@ -1142,7 +1148,7 @@ Convert inequalities into equalities to draw the lines:
 
 <br>
 
-### [1](). $x_1 + 3x_2 = 7$
+### [1](): $x_1 + 3x_2 = 7$
    - If $x_1 = 0 \Rightarrow x_2 = \frac{7}{3} \approx 2.33$
    - If $x_2 = 0 \Rightarrow x_1 = 7$
   
@@ -1156,7 +1162,7 @@ x_1 + 3x_2 = 7$
   
 <br>
 
-### [2](). $2x_1 + 2x_2 = 8$
+### [2](): $2x_1 + 2x_2 = 8$
    - If $x_1 = 0 \Rightarrow x_2 = 4$
    - If $x_2 = 0 \Rightarrow x_1 = 4$
 
@@ -1170,7 +1176,7 @@ x_1 + 2x_2 = 8
 
 <br>
 
-### [3](). $x_1 + x_2 = 3$
+### [3](): $x_1 + x_2 = 3$
    - If $x_1 = 0 \Rightarrow x_2 = 3$
    - If $x_2 = 0 \Rightarrow x_1 = 3$
 
@@ -1184,7 +1190,7 @@ x_1 + x_2 = 3
 
 <br>
 
-### [4](). $x_2 = 2$ → horizontal line
+### [4](): $x_2 = 2$ → horizontal line
 
 <br>
 
