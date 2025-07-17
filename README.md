@@ -92,6 +92,8 @@ The [key difference]() between sim-opt and other analytical tools is its [abilit
 
 ### [An optimization problem]() can be represented using the `optidef` package. For example:
 
+<br>
+
 $$
 \begin{aligned}
     &\min_{x} f(x) \\
@@ -113,6 +115,8 @@ $$
 
 ## [Simplex Algorithm]():
 
+<br>
+
 The simplex algorithm is used to solve linear problems. Although there isn't a specific command for it, we can describe it in text or use tables to show the steps of the algorithm.
 
 <br>
@@ -120,6 +124,8 @@ The simplex algorithm is used to solve linear problems. Although there isn't a s
 ### [Matrix]():
 
 A matrix can be created using the `amsmath` package:
+
+<br>
 
 $$
 A =
@@ -144,6 +150,8 @@ a_{21} & a_{22}
 ### [Simulation]():
 
 Simulation generally involves complex mathematical models that can be described using differential or integral equations.
+
+<br>
 
 $$
 y(t) = A e^{kt}
@@ -198,6 +206,8 @@ Z = 20x_1 + 12.5x_2
 <br>
 
 ###  [Subject to Constraints]():
+
+<br>
 
 $$
 \begin{cases}
@@ -257,12 +267,15 @@ $$\frac{x_1}{2} + \frac{2x_2}{3} \leq 170$$
 
 ### [Optimal Solution]():
 
-#### Solving the system yields:
+### Solving the system yields:
+
+<br>
 
 $$
 (x_1, x_2) = (180, 120)
 $$
 
+<br>
 
 ```latex
 \(x_1, x_2) = (180, 120)
@@ -270,12 +283,15 @@ $$
 
 <br>
 
-### [Maximum Profit Calculation]()
+### [Maximum Profit Calculation]():
+
+<br>
 
 $$
 Z = 20(180) + 12.5(120)
 $$
 
+<br>
 
 ```latex
 \Z = 20(180) + 12.5(120)
@@ -286,6 +302,12 @@ $$
 $$
 Z = 3600 + 1500 = 5100
 $$
+
+<br>
+
+```latex
+\Z = 3600 + 1500 = 5100
+```
 
 <br>
 
