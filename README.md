@@ -335,13 +335,14 @@ The **graphical method** for solving simple linear programming (LP) problems inv
 
 **[Decision Variables]():** These are the variables that we want to determine the values of to optimize the ***[OBJECTIVE FUNCTION]()*** (e.g.):
 
+<br> 
 
-$$\(x_1\)$$ and $$\(x_2\)$$
+$\(x_1\)$ and $\(x_2\)$
 
 <br>  
 
 ```latex
-\(x_1\)$$ and $$\(x_2\)
+\(x_1\)$$ and \(x_2\)
 ```	
 
 <br>
