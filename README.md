@@ -545,7 +545,7 @@ This example shows how to solve a Linear Programming (LP) problem using the **Si
 ### [Problem](): 
 
 
-### [Maximize the objective function]():
+### - [Maximize the objective function]():
 
 Z = 3x + 5y
 
@@ -639,7 +639,7 @@ This example demonstrates how to use Excel Solver to solve a Linear Programming 
 
 ### Problem Statement
 
-### [Maximize]():
+### - [Maximize]():
 
 Z = 40x + 30y
 
@@ -674,7 +674,7 @@ y &\geq 0 \\
 
 <br>
 
-### [*Excel Setup*]():
+### - [*Excel Setup*]():
 
 <br>
 
@@ -728,7 +728,7 @@ This example presents a complete, step-by-step solution to a **Linear Programmin
 
 ### 🧮 [Problem Statement]():
 
-### [**Maximize:**]():
+### - [**Maximize:**]():
 
 <br>
 
@@ -737,7 +737,7 @@ $Z = 4x_1 + 3x_2$
 <br>
 
 
-### [**Subject to:**]():
+### - [**Subject to:**]():
 
 $$
 \begin{cases}
@@ -763,23 +763,6 @@ x_1 \geq 0, \quad x_2 \geq 0
 
 <br>
 
-```latex
-\
-\begin{aligned}
-\text{Max.} \quad & Z = 4x_1 + 3x_2 \\
-\text{S.a.} \quad & 
-\begin{cases}
-x_1 + 3x_2 \leq 7 \\
-2x_1 + 2x_2 \leq 8 \\
-x_1 + x_2 \leq 3 \\
-x_2 \leq 2 \\
-x_1 \geq 0 \text{ e } x_2 \geq 0
-\end{cases}
-\end{aligned}
-\
-```
-
-<br>
 
 ### ✅ Standard Form Conversion:
 
