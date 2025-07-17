@@ -386,7 +386,9 @@ $a_{i1}x_1 + a_{i2}x_2$ = $b_i$
 
 - **[Less than or equal to constraint]():**
 
-   $a_{i1}x_1$$ + $a_{i2}x_2 \leq b_i$$
+   $a_{i1}x_1$$ + $a_{i2}x_2 \leq b_i$
+
+<br>
 
    ```latex
    a_{i1}x_1 + a_{i2}x_2 \leq b_i
@@ -397,13 +399,15 @@ $a_{i1}x_1 + a_{i2}x_2$ = $b_i$
 
   - [Greater than or equal to constraint]():
 
-    $$a_{i1}x_1$$ + $$a_{i2}x_2 \geq b_i$$
+    $a_{i1}x_1$ + $a_{i2}x_2 \geq b_i$
+
+ <br>   
 
   ```latex
   a_{i1}x_1 + a_{i2}x_2 \geq b_i
   ```
 
-<br>
+<br><br>
 
 
 - **[Feasible Solution]():** A solution $\(x_1, x_2)\$ that satisfies all the constraints of the problem.
