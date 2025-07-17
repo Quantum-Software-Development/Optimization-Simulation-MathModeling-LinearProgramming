@@ -1320,6 +1320,8 @@ Intersection of x_1 + 3x_2 = 7 and 2x_1 + 2x_2 = 8:
 
 ### 🏁 [Conclusion]():
 
+<br>
+
 - **Optimal solution:** $x_1 = 3$, $x_2 = 0$
 - **Maximum value:** $Z = 12$
 
