@@ -171,15 +171,17 @@ $$
 
 # II- [Modeling - Writing Mathematical Models]()
 
-#### [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/blob/6a19c6fa9a8b255e1d21bb7d2c5d1ede61f5faf1/class_2-Modeling-Writing%20Mathematical%20Model%20s/2-Optimization%20and%20Simulation%20Modeling.pdf) to access Theoretical and Pratical Material. 
+#### ☞ [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/blob/6a19c6fa9a8b255e1d21bb7d2c5d1ede61f5faf1/class_2-Modeling-Writing%20Mathematical%20Model%20s/2-Optimization%20and%20Simulation%20Modeling.pdf) to access Theoretical and Pratical Material. 
 
-#### [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/tree/8e6e2abf64164103aba57d65a58ce19490ea3361/class_2-Modeling-Writing%20Mathematical%20Model%20s/Manually%20solved%20exercises) and access exercises manually solved.
+#### ☞ [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/tree/8e6e2abf64164103aba57d65a58ce19490ea3361/class_2-Modeling-Writing%20Mathematical%20Model%20s/Manually%20solved%20exercises) and access exercises manually solved.
 
-#### [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/tree/d9ba27da44bc9e19a5c9239a8aeb8ea4eb0da24d/class_2-Modeling-Writing%20Mathematical%20Model%20s/Extra%20Excercises) and access extras exercises 
+#### ☞ [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/tree/d9ba27da44bc9e19a5c9239a8aeb8ea4eb0da24d/class_2-Modeling-Writing%20Mathematical%20Model%20s/Extra%20Excercises) and access extras exercises 
 
 <br>
 
 ### [Example](): Maximizing Profit for a Chocolate Manufacturer
+
+<br>
 
 A chocolate manufacturer has a stock of chocolates, consisting of 130 kg with cherry filling and 170 kg with mint filling. He decides to sell the stock in the form of two different assorted packages. One package contains a mix with half the weight in cherry chocolates and half in mint chocolates and sells for R$ 20.00 per kg. The other package contains a mix of one-third cherry chocolates and two-thirds mint chocolates and sells for R$ 12.50 per kg. How many kilograms of each mix should the seller prepare to maximize his sales profit?
 
@@ -203,7 +205,7 @@ $$
 Z = 20x_1 + 12.5x_2
 ```
 
-<br>
+<br><br>
 
 ###  [Subject to Constraints]():
 
@@ -227,7 +229,7 @@ $$
 \end{cases}
 ```
 
-<br>
+<br><br>
 
 ###  [Solution Steps]():
 
@@ -319,9 +321,9 @@ Thus, the maximum profit achievable is [**R$ 5,100**]().
 
 # III- [Graphical Method for Linear Programming]() (LP)
 
-#### ➢ [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/blob/910094081c2f3be40f14dacf4ec2c56de3d7aa83/class_3-Graphic%20Method/3-Graphic%20Method.pdf) to access Theoretical and Pratical Material.
+#### ☞ [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/blob/910094081c2f3be40f14dacf4ec2c56de3d7aa83/class_3-Graphic%20Method/3-Graphic%20Method.pdf) to access Theoretical and Pratical Material.
 
-#### ➣ [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/tree/bcf9b6ae4da82dba29644bd2599e54e86f5c8188/class_3-Graphic%20Method/Manually%20solved%20exercises) and access solved exercises manually
+#### ☞ [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/tree/bcf9b6ae4da82dba29644bd2599e54e86f5c8188/class_3-Graphic%20Method/Manually%20solved%20exercises) and access solved exercises manually
 
 <br>
 
