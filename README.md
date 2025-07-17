@@ -219,7 +219,7 @@ $$
 
 <br>
 
-### ➢ [Solution Steps]():
+###  [Solution Steps]():
 
 <br>
 
