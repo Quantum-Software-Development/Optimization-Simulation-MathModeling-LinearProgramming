@@ -337,7 +337,7 @@ The **graphical method** for solving simple linear programming (LP) problems inv
 
 <br>
 
-  $$\(x_1\)$$ and $$\(x_2\)$$
+$$\(x_1\)$$ and $$\(x_2\)$$
 
 <br>  
 
@@ -348,7 +348,6 @@ The **graphical method** for solving simple linear programming (LP) problems inv
 <br>
  
 - **[Objective Function]():** This is the linear function that we aim to maximize or minimize. For example:
-
 
 <br>  
 
@@ -364,7 +363,12 @@ The **graphical method** for solving simple linear programming (LP) problems inv
 <br>
 
 - **[Constraints]():** These are linear inequalities or equalities that restrict the values the decision variables can take.
-  - [Equality constraint]():
+
+<br>
+
+   - [Equality constraint]():
+
+<br>
 
   $$a_{i1}x_1 + a_{i2}x_2$$ = $$b_i$$
 
