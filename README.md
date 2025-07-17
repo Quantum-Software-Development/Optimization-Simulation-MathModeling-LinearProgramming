@@ -895,6 +895,8 @@ A study on resource usage showed the possibility of producing two products: **P1
 
 [The production department provided the following **resource usage** table]():
 
+<br>
+
 | Product | R1/unit | R2/unit | R3/unit |
 |---------|---------|---------|---------|
 | **P1**  |    2    |    3    |    5    |
@@ -903,6 +905,8 @@ A study on resource usage showed the possibility of producing two products: **P1
 <br>
 
 [And the **monthly resource availability**]():
+
+<br>
 
 | Resource | Monthly Availability |
 |----------|----------------------|
@@ -996,7 +1000,7 @@ $5x_1 + 3x_2 \leq 120$
 
 <br><br>
 
-### 4. [Non-Negativity Constraints]()
+### [4](). Non-Negativity Constraints:
 
 ### ***We cannot produce a negative quantity of products***:
 
@@ -1012,7 +1016,7 @@ x_1 \geq 0, \quad x_2 \geq 0
 
 <br><br>
 
-### 5. [Complete Mathematical Model]():
+### [5](). Complete Mathematical Model:
 
 <br>
 
@@ -1048,7 +1052,7 @@ x_1 \geq 0, \quad x_2 \geq 0
 
 <br>
 
-### 🔢 {Profit per Product]():
+### 🔢 [Profit per Product]():
 
 <br>
 
@@ -1061,6 +1065,8 @@ x_1 \geq 0, \quad x_2 \geq 0
   
 ### 🧰 Resource Usage per Unit
 
+<br>
+
 | Product | R1/unit | R2/unit | R3/unit |
 |:--------|:-------:|:-------:|:-------:|
 | **P1**  |   2     |   3     |   5     |
@@ -1069,6 +1075,8 @@ x_1 \geq 0, \quad x_2 \geq 0
 <br>
 
 ### 📦 Monthly Resource Availability
+
+<br>
 
 | Resource | Available Units |
 |:---------|:----------------:|
