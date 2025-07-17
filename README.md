@@ -42,6 +42,8 @@ Constrained and unconstrained optimization. Linear Programming: formulation, geo
 
 Optimization and simulation are two key areas in Operations Research, used for problem-solving and decision-making, but they approach these tasks differently[4][5]. Simulation creates a virtual model to analyze a system's behavior under various conditions, allowing for experimentation by varying parameters[1]. Optimization, on the other hand, employs mathematical algorithms to identify the best configuration of these parameters, aiming to maximize or minimize a specific objective, such as reducing costs or increasing efficiency.
 
+<br>
+
 **[Sim-Opt]() (Simulation-Optimization)**
 Sim-opt combines simulation and optimization techniques to provide a comprehensive and dynamic understanding of a system. This approach integrates real-world uncertainties with the search for ideal solutions[1]. By simulating the impact of each parameter and comparing it to an ideal scenario, sim-opt helps identify the factors that most influence a system's performance, leading to more strategic decisions.
 
