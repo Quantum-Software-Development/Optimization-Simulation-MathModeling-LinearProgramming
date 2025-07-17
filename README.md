@@ -58,6 +58,8 @@ Sim-opt combines simulation and optimization techniques to provide a comprehensi
 
 <br>
 
+#
+
 ### **[How to Implement Optimization]() in Simulation Models**:
 
 <br>
@@ -93,6 +95,7 @@ $$
 \end{aligned}
 $$
 
+<br>
 
 ```latex
 \begin{aligned}
