@@ -333,7 +333,7 @@ The **graphical method** for solving simple linear programming (LP) problems inv
 
 ### [Key]() Concepts:
 
-<br><br>
+<br>
 
 - **[Decision Variables]():** These are the variables that we want to determine the values of to optimize the ***[OBJECTIVE FUNCTION]()*** (e.g.):
 
