@@ -345,14 +345,13 @@ $\(x_1\)$ and $\(x_2\)$
 \(x_1\)$$ and \(x_2\)
 ```	
 
-<br>
+<br><br>
  
 - **[Objective Function]():** This is the linear function that we aim to maximize or minimize. For example:
 
 <br>  
 
-  $$\max/\min \quad Z$$ = $$c_1x_1 + c_2x_2$$
-
+  $\max/\min \quad Z$ = $c_1x_1 + c_2x_2$
 
 <br>  
 
@@ -360,7 +359,7 @@ $\(x_1\)$ and $\(x_2\)$
     Max/Min \quad Z = c_1x_1 + c_2x_2
   ```
 
-<br>
+<br><br>
 
 - **[Constraints]():** These are linear inequalities or equalities that restrict the values the decision variables can take.
 
