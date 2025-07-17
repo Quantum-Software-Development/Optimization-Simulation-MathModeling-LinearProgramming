@@ -499,18 +499,18 @@ The graphical method is a useful tool for solving linear programming problems wi
 
 # IV- [The Simplex Method]()
 
-#### [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/blob/5d0f89d3a4d9f67f900463505cb7d4b4e72d186a/class_4-Simplex%20Method/class_4-Simplex%20Method.pdf) to access Theoretical and Pratical Material. 
+#### ☞ [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/blob/5d0f89d3a4d9f67f900463505cb7d4b4e72d186a/class_4-Simplex%20Method/class_4-Simplex%20Method.pdf) to access Theoretical and Pratical Material. 
 
 
-#### [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/tree/f9cef4452ad8486d03c8273aa83885de625c2da8/class_4-Simplex%20Method/SIMPLEX%20IMPLEMENT%20and%20CALCULUS%20EXERCISES) and access Simplex Implementation and Calculus Exercises Manually Solved
+####  ☞ [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/tree/f9cef4452ad8486d03c8273aa83885de625c2da8/class_4-Simplex%20Method/SIMPLEX%20IMPLEMENT%20and%20CALCULUS%20EXERCISES) and access Simplex Implementation and Calculus Exercises Manually Solved
 
 <br>
 
 # V- [Two-Stage Simplex]()
 
-#### [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/blob/e09ce2c81b12f47975bdb0ed6b3acd77b2195532/class_6-Two-Stage%20Simplex./two-stage%20simplex..pdf) to access Theoretical and Pratical Material.
+####  ☞  [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/blob/e09ce2c81b12f47975bdb0ed6b3acd77b2195532/class_6-Two-Stage%20Simplex./two-stage%20simplex..pdf) to access Theoretical and Pratical Material.
 
-#### [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/tree/83b16e5330d7e467cb5df57827e7d02076ac0f84/class_6-Two-Stage%20Simplex/Exercise_1-Two-StageSimplex-Solved%20with%20Multiple%20Iteraties) and access Two-StageS Simplex with Multiple Iteraties - Implementation and Calculus Exercise Manually Solved
+####  ☞  [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/tree/83b16e5330d7e467cb5df57827e7d02076ac0f84/class_6-Two-Stage%20Simplex/Exercise_1-Two-StageSimplex-Solved%20with%20Multiple%20Iteraties) and access Two-StageS Simplex with Multiple Iteraties - Implementation and Calculus Exercise Manually Solved
 
 #### [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/tree/caf816701eac73bdf1289997519ea3560f72956e/class_6-Two-Stage%20Simplex/Exercise_2-Two-StageSimplex-Solved%20with%20Only%20%20One%20Iteration) and access Two-Stage Simplex with Only  One Iteration - Implementation and Calculus Exercise Manually Solved
 
