@@ -893,7 +893,7 @@ A study on resource usage showed the possibility of producing two products: **P1
 
 <br>
 
-The production department provided the following **resource usage** table:
+[The production department provided the following **resource usage** table]():
 
 | Product | R1/unit | R2/unit | R3/unit |
 |---------|---------|---------|---------|
@@ -902,7 +902,7 @@ The production department provided the following **resource usage** table:
 
 <br>
 
-And the **monthly resource availability**:
+[And the **monthly resource availability**]():
 
 | Resource | Monthly Availability |
 |----------|----------------------|
@@ -912,7 +912,7 @@ And the **monthly resource availability**:
 
 <br>
 
-###  [Objective]():
+### - [Objective]():
 
 ### ***Mathematically model the **Linear Programming (LP)** problem to **maximize profit** under resource constraints***.
 
@@ -930,7 +930,7 @@ x₂ = quantity produced of product P2
 
 <br>
 
-☟ Or in LaTeX (for use in documents):
+Or in LaTeX (for use in documents): ☟
 
 ```latex
 x_1 = \text{quantity produced of product P1} \\
@@ -944,7 +944,11 @@ x_2 = \text{quantity produced of product P2}
 
 #### Maximize total profit:
 
-### $\text{Maximize: } Z = 120x_1 + 150x_2$
+<br>
+
+$\text{Maximize: } Z = 120x_1 + 150x_2$
+
+<br>
 
 ```latex
 \text{Maximize: } Z = 120x_1 + 150x_2
@@ -956,31 +960,41 @@ x_2 = \text{quantity produced of product P2}
 
 ### Each resource has limited availability:
 	
-### ➢ [R1]() Constraint:
+### - [R1]() Constraint:
 
-### $2x_1 + 4x_2 \leq 100$
+$2x_1 + 4x_2 \leq 100$
+
+<br>
 
 ```latex
 2x_1 + 4x_2 \leq 100
 ```
 
-#### ➢ [R2]() Constraint:
+<br>
 
-### $3x_1 \leq 90$
+### - [R2]() Constraint:
+
+$3x_1 \leq 90$
+
+<br>
 
 ```latex
 $3x_1 \leq 90
 ```
 
-#### ➢ [R3]() Constraint:
+<br>
 
-### $5x_1 + 3x_2 \leq 120$
+### - [R3]() Constraint:
+
+$5x_1 + 3x_2 \leq 120$
+
+<br>
 
 ```latex
 5x_1 + 3x_2 \leq 120
 ```
 
-<br>
+<br><br>
 
 ### 4. [Non-Negativity Constraints]()
 
