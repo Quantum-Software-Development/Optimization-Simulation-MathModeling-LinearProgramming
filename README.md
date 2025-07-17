@@ -63,6 +63,7 @@ Sim-opt combines simulation and optimization techniques to provide a comprehensi
 
 <br>
 
+
 ### **[How to Implement Optimization]() in Simulation Models**:
 
 <br>
@@ -222,19 +223,27 @@ $$
 
 <br>
 
-1. Express the cherry chocolate constraint:
+[1](). Express the cherry chocolate constraint:
+
+<br>
 
 $$\frac{x_1}{2} + \frac{x_2}{3} \leq 130$$
+
+<br>
 
 ```latex
 \frac{x_1}{2} + \frac{x_2}{3} \leq 130
 ```
 
- <br>  
+ <br>   
    
-2. Express the mint chocolate constraint:
+[2](). Express the mint chocolate constraint:
+
+<br>
    
 $$\frac{x_1}{2} + \frac{2x_2}{3} \leq 170$$
+
+<br>
 
 ```latex
 \frac{x_1}{2} + \frac{2x_2}{3} \leq 170
