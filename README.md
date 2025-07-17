@@ -46,7 +46,8 @@ Sim-opt combines simulation and optimization techniques to provide a comprehensi
 
 <br>
 
-**[Benefits]() of Sim-Opt**
+### **[Benefits]() of Sim-Opt**
+
 *   **[Analyzing uncertain scenarios]():** Sim-opt evaluates the impact of unpredictable events and helps plan strategies to manage risk.
 
 *   **[Optimizing processes]():** It identifies bottlenecks and opportunities for improvement and defines the best practices for various situations.
@@ -55,7 +56,7 @@ Sim-opt combines simulation and optimization techniques to provide a comprehensi
 
 <br>
 
-**[How to Implement Optimization]() in Simulation Models**
+### **[How to Implement Optimization]() in Simulation Models**
 
 1.  **[Define decision variables]():** Identify the variables that affect the simulation model's outputs and will be tested by the optimization algorithm.
 
