@@ -809,7 +809,7 @@ x_1,\, x_2,\, s_1,\, s_2,\, s_3,\, s_4 \geq 0
 - **Leaving variable**: s₃ (minimum ratio = 3)  
 - Pivot to bring x₁ into the basis.  
 
-### {Updated tableau shows next candidate as]():  
+### [Updated tableau shows next candidate as]():  
 
 - **Entering variable**: x₂  
 - **Leaving variable**: s₁ or s₄ (tie – choose s₁)
@@ -825,7 +825,7 @@ Now the most negative coefficient in the Z row is for s₃, but:
 
 ### 🏁 [Final Optimal Solution]():
 
-The optimal solution was reached at the end of Iteration 1]():
+[The optimal solution was reached at the end of Iteration 1]():
 
 x₁ = 3  
 x₂ = 0  
