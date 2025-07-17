@@ -463,7 +463,7 @@ $a_{i1}x_1$ + $a_{i2}x_2 \geq b_i$
 
 ## [Possible Scenarios]()
 
-*   **Unique Optimal Solution:** The objective function achieves its maximum or minimum value at a single vertex of the feasible region.
+*   [**Unique Optimal Solution:**](): The objective function achieves its maximum or minimum value at a single vertex of the feasible region.
 
 *   **Multiple Optimal Solutions:** The objective function achieves its optimal value at more than one point, typically along an edge connecting two adjacent vertices. In this case, all points on that edge are optimal solutions.
 
