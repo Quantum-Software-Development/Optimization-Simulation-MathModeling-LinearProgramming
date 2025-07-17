@@ -31,7 +31,6 @@
 
 #### ➢ [Analytics4All](https://analytics4all.org/2016/06/08/phpsimplex-simplex-linear-programming/)
 
-
 <br><br>
 
 ## [Introduction to optimization problems and their basic properties]():
@@ -59,9 +58,10 @@ Sim-opt combines simulation and optimization techniques to provide a comprehensi
 
 *   **[Making informed decisions]():** Sim-opt bases decisions on data and simulations, reducing uncertainty and the risk of errors.
 
-<br>
 
 #
+
+<br>
 
 ### **[How to Implement Optimization]() in Simulation Models**:
 
