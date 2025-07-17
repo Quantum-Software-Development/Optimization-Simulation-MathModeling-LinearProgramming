@@ -1233,7 +1233,8 @@ Intersection of x_1 + 3x_2 = 7 and 2x_1 + 2x_2 = 8:
 
 <br>
 
-### [2](). Intersection of $x_1 + 3x_2 = 7$ and $x_1 + x_2 = 3$:
+### [2](). [Intersection of](): $x_1 + 3x_2 = 7$ and $x_1 + x_2 = 3$:
+
    - Subtract: $2x_2 = 4 \Rightarrow x_2 = 2$, $x_1 = 1$
    - Point: **(1, 2)**
 
