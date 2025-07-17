@@ -1394,7 +1394,7 @@ The transportation algorithm follows the **same logic as the Simplex method**, b
 
 - [We will use two methods to find a basic solution]():
 
-br>  
+<br>  
 
 - **Northwest Corner Method**
 - **Least Cost Method**
