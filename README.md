@@ -48,7 +48,9 @@ Sim-opt combines simulation and optimization techniques to provide a comprehensi
 
 **[Benefits]() of Sim-Opt**
 *   **[Analyzing uncertain scenarios]():** Sim-opt evaluates the impact of unpredictable events and helps plan strategies to manage risk.
+
 *   **[Optimizing processes]():** It identifies bottlenecks and opportunities for improvement and defines the best practices for various situations.
+
 *   **[Making informed decisions]():** Sim-opt bases decisions on data and simulations, reducing uncertainty and the risk of errors.
 
 <br>
@@ -327,9 +329,7 @@ The **graphical method** for solving simple linear programming (LP) problems inv
   a_{i1}x_1 + a_{i2}x_2 \geq b_i
   ```
 
-
     <br>
-
 
 - **[Feasible Solution]():** A solution $\(x_1, x_2)\$ that satisfies all the constraints of the problem.
 
