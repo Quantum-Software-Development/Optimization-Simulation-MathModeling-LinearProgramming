@@ -938,7 +938,7 @@ x_1 = \text{quantity produced of product P1} \\
 x_2 = \text{quantity produced of product P2}
 ```
 
-<br>
+<br><br>
 
 ### [2](). Objective Function:
 
@@ -954,7 +954,7 @@ $\text{Maximize: } Z = 120x_1 + 150x_2$
 \text{Maximize: } Z = 120x_1 + 150x_2
 ```
 
-<br>
+<br><br>
 
 ### [3](). Resource Constraints:
 
@@ -1000,12 +1000,17 @@ $5x_1 + 3x_2 \leq 120$
 
 ### ***We cannot produce a negative quantity of products***:
 
-### $x_1 \geq 0, \quad x_2 \geq 0$
+<br>
+
+$x_1 \geq 0, \quad x_2 \geq 0$
+
+<br>
 
 ```latex
 x_1 \geq 0, \quad x_2 \geq 0
 ```
-<br>
+
+<br><br>
 
 ### 5. [Complete Mathematical Model]():
 
@@ -1023,6 +1028,8 @@ x_1 \geq 0, \quad x_2 \geq 0
 }
 $$
 
+<br>
+
 ```latex
 \boxed{
 \begin{cases}
@@ -1034,11 +1041,16 @@ x_1 \geq 0, \quad x_2 \geq 0
 \end{cases}
 }
 ```
+
+<br><br>
+
+## 📌 [Summary Tables]():
+
 <br>
 
-## 📌 Summary Tables
+### 🔢 {Profit per Product]():
 
-### 🔢 Profit per Product
+<br>
 
 | Product | Profit per Unit (u.m.) |
 |:--------|:----------------------:|
