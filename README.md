@@ -722,11 +722,11 @@ After running Solver:
 
 <br>
 
-# VIII - 🐍[Linear Programming Problem – Simplex Method using Python]():
+# VIII  🐍[Linear Programming Problem – Simplex Method using Python]():
 
 This example presents a complete, step-by-step solution to a **Linear Programming (LP)** problem using the **Simplex Method**, along with a basic **Python implementation**.
 
-## 🧮 [Problem Statement]():
+### 🧮 [Problem Statement]():
 
 ### [**Maximize:**]():
 
