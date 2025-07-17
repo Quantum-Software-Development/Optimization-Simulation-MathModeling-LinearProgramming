@@ -713,7 +713,7 @@ After running Solver:
 
 <br>
 
-# VIII  🐍[Linear Programming Problem – Simplex Method using Python]():
+# VIII  🐍 [Linear Programming Problem – Simplex Method using Python]():
 
 This example presents a complete, step-by-step solution to a **Linear Programming (LP)** problem using the **Simplex Method**, along with a basic **Python implementation**.
 
@@ -1217,7 +1217,8 @@ x_1 \geq 0$ and $x_2 \geq 0
 
  <br> 
 
-### [1](). Intersection of $x_1 + 3x_2 = 7$ and $2x_1 + 2x_2 = 8$:
+### [1](). [Intersection of]() $x_1 + 3x_2 = 7$ and $2x_1 + 2x_2 = 8$:
+
    - Multiply first by 2: $2x_1 + 6x_2 = 14$
    - Subtract: $4x_2 = 6 \Rightarrow x_2 = 1.5$, $x_1 = 2.5$
    - Point: **(2.5, 1.5)**
@@ -1233,7 +1234,7 @@ Intersection of x_1 + 3x_2 = 7 and 2x_1 + 2x_2 = 8:
 
 <br>
 
-### [2](). [Intersection of](): $x_1 + 3x_2 = 7$ and $x_1 + x_2 = 3$:
+### [2](). [Intersection of]() $x_1 + 3x_2 = 7$ and $x_1 + x_2 = 3$:
 
    - Subtract: $2x_2 = 4 \Rightarrow x_2 = 2$, $x_1 = 1$
    - Point: **(1, 2)**
@@ -1248,13 +1249,13 @@ Intersection of x_1 + 3x_2 = 7 and 2x_1 + 2x_2 = 8:
 
 <br>
 
-### [3](). Intersection of $x_1 + x_2 = 3$ and $x_2 = 2$:
+### [3](). [Intersection of() $x_1 + x_2 = 3$ and $x_2 = 2$:
    - $x_1 = 1$
    - Point: **(1, 2)**
 
 <br>
 
-### [4](). Intersection of $2x_1 + 2x_2 = 8$ and $x_2 = 2$:
+### [4](). [Intersection of() $2x_1 + 2x_2 = 8$ and $x_2 = 2$:
    - $x_1 = 2$
    - Point: **(2, 2)**
 
