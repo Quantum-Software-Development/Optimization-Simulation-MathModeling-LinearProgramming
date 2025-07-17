@@ -333,7 +333,9 @@ The **graphical method** for solving simple linear programming (LP) problems inv
 
 ### [Key]() Concepts:
 
-**[Decision Variables]():** These are the variables that we want to determine the values of to optimize the ***[OBJECTIVE FUNCTION]()*** (e.g.):
+<br><br>
+
+- **[Decision Variables]():** These are the variables that we want to determine the values of to optimize the ***[OBJECTIVE FUNCTION]()*** (e.g.):
 
 <br> 
 
@@ -363,29 +365,34 @@ $\(x_1\)$ and $\(x_2\)$
 
 - **[Constraints]():** These are linear inequalities or equalities that restrict the values the decision variables can take.
 
+
+<br><br>
+
+- **[Equality constraint]():**
+
 <br>
 
-   - [Equality constraint]():
+  $a_{i1}x_1 + a_{i2}x_2$ = $b_i$
 
-<br>
-
-  $$a_{i1}x_1 + a_{i2}x_2$$ = $$b_i$$
+<br>  
 
   ```latex
    a_{i1}x_1 + a_{i2}x_2 = b_i
    ```
 
-  <br>
+  <br><br>
 
 
-  - [Less than or equal to constraint]():
+- **[Less than or equal to constraint]():**
 
-   $$a_{i1}x_1$$ + $$a_{i2}x_2 \leq b_i$$
+   $a_{i1}x_1$$ + $a_{i2}x_2 \leq b_i$$
 
    ```latex
    a_{i1}x_1 + a_{i2}x_2 \leq b_i
    ```
-    <br>
+
+<br><br>
+    
 
   - [Greater than or equal to constraint]():
 
@@ -437,7 +444,8 @@ $\(x_1\)$ and $\(x_2\)$
 5.  **[Determine the Optimal Solution]():**
 
     *   For a **maximization** problem, the vertex that yields the **largest** value of the objective function is the optimal solution [1, 6].
-    *   For a **minimization** problem, the vertex that yields the **smallest** value of the objective function is the optimal solution [2, 7].
+
+     *   For a **minimization** problem, the vertex that yields the **smallest** value of the objective function is the optimal solution [2, 7].
 
 
 <br><br>
