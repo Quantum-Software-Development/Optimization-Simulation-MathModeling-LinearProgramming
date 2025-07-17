@@ -1063,7 +1063,7 @@ x_1 \geq 0, \quad x_2 \geq 0
 
 <br>
   
-### 🧰 Resource Usage per Unit
+### 🧰 [Resource Usage per Unit]():
 
 <br>
 
@@ -1074,7 +1074,7 @@ x_1 \geq 0, \quad x_2 \geq 0
 
 <br>
 
-### 📦 Monthly Resource Availability
+### 📦 [Monthly Resource Availability]():
 
 <br>
 
