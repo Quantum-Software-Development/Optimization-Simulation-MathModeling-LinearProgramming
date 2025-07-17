@@ -84,7 +84,7 @@ The [key difference]() between sim-opt and other analytical tools is its [abilit
 
 <br>
 
-# I- Example of a [Optimization Problem]()
+# I- [Example of a Optimization Problem]()
 
 #### ☞ [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-Modeling-LinearProgramming/blob/8e3cf8ba6bdc2ce92a011ff5169a3ec704a9d6f0/class_1-Optimization-Simulation-Modelin/1-Optimization%20and%20Simulation.pdf) to access Theoretical and Pratical Material. 
 
