@@ -544,13 +544,12 @@ This example shows how to solve a Linear Programming (LP) problem using the **Si
 
 ### [Problem](): 
 
-<br>
 
 ### [Maximize the objective function]():
 
 Z = 3x + 5y
 
-<br>  <br>
+<br>  
 
 ### [Subject to the constraints]():
 
