@@ -545,13 +545,13 @@ This example shows how to solve a Linear Programming (LP) problem using the **Si
 ### [Problem](): 
 
 
-### [Maximize the objective function]():
+### - [Maximize the objective function]():
 
 Z = 3x + 5y
 
 <br>  
 
-### [Subject to the constraints]():
+### - [Subject to the constraints]():
 
 x + 2y ≤ 100
 2x + y ≤ 80
@@ -565,9 +565,8 @@ x, y ≥ 0
 
 ### **Fill the spreadsheet with the following structure:**
 
-<br>
 
-#### [*Variables and Objective*]()
+### [*Variables and Objective*]()
 
 <br>
 
