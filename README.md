@@ -912,15 +912,15 @@ And the **monthly resource availability**:
 
 <br>
 
-### ➢ [Objective]():
+###  [Objective]():
 
 ### ***Mathematically model the **Linear Programming (LP)** problem to **maximize profit** under resource constraints***.
 
 <br>
 
-### ➢[Step-by-Step Modeling]()
+### - [Step-by-Step Modeling]()
 
-### 1. [Decision Variables]():
+### [1](). Decision Variables:
 
 - Let:
 
@@ -940,7 +940,7 @@ x_2 = \text{quantity produced of product P2}
 
 <br>
 
-### 2. [Objective Function]():
+### [2](). Objective Function:
 
 #### Maximize total profit:
 
@@ -952,11 +952,11 @@ x_2 = \text{quantity produced of product P2}
 
 <br>
 
-### 3. [Resource Constraints]():
+### [3](). Resource Constraints:
 
-#### Each resource has limited availability:
+### Each resource has limited availability:
 	
-#### ➢ [R1]() Constraint:
+### ➢ [R1]() Constraint:
 
 ### $2x_1 + 4x_2 \leq 100$
 
