@@ -335,17 +335,31 @@ The **graphical method** for solving simple linear programming (LP) problems inv
 
 - **[Decision Variables]():** These are the variables that we want to determine the values of to optimize the ***[OBJECTIVE FUNCTION]()*** (e.g.):
 
+<br>
+
   $$\(x_1\)$$ and $$\(x_2\)$$
+
+<br>  
+
+```latex
+\(x_1\)$$ and $$\(x_2\)
+```	
 
 <br>
  
 - **[Objective Function]():** This is the linear function that we aim to maximize or minimize. For example:
 
+
+<br>  
+
   $$\max/\min \quad Z$$ = $$c_1x_1 + c_2x_2$$
+
+
+<br>  
 
   ```latex
     Max/Min \quad Z = c_1x_1 + c_2x_2
-    ```
+  ```
 
 <br>
 
