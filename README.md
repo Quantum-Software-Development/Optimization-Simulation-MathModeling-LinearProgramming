@@ -1100,12 +1100,11 @@ x_1 \geq 0, \quad x_2 \geq 0
 
 <br>
 
-### ➢ [**Objective:**]():
+### - [**Objective:**]():
 
-$
-Z = 4x_1 + 3x_2
-$
+$Z = 4x_1 + 3x_2$
 
+<br>
 
 ```latex
 Z = 4x_1 + 3x_2
