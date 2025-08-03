@@ -2234,8 +2234,6 @@ The [**Assignment Problem**]() aims to allocate *n* tasks to *n* agents (machine
 
 <br>
 
-🏄🏄🏄🏄🏄
-
 ### [Step 1](): Set Up the Excel Spreadsheet
 
 <br>
@@ -2302,8 +2300,7 @@ This formula multiplies each assignment by its cost and sums the total.
 - In **J2**: `=SUM(G2:I2)`
 - In **J3**: `=SUM(G3:I3)`
 - In **J4**: `=SUM(G4:I4)`
-
-<br>
+- 
 
 #### [Column Sums]() (Each Machine Assigned Once):
 
@@ -2314,27 +2311,29 @@ This formula multiplies each assignment by its cost and sums the total.
 
 <br>
 
+🏄🏄🏄🏄🏄
+
 ### [Step 2](): Configure Excel Solver
 
 <br>
 
-1. **Go to**: Data > Solver
+1. [**Go to**](): Data > Solver
 
-2. **Set Objective**:  
+2. [**Set Objective**](): 
    - Set **K2** (total cost) to **Minimize**.
 
-3. **By Changing Variable Cells**:  
+3. [**By Changing Variable Cells**]():   
    - Select **G2:I4**.
 
-4. **Add Constraints**:
+4. [**Add Constraints**](): 
    - **J2:J4 = 1** (each task assigned once)
    - **G5:I5 = 1** (each machine assigned once)
    - **G2:I4 = binary** (only 0 or 1 allowed)
 
-5. **Choose Solving Method**:  
+5. [**Choose Solving Method**]():  
    - Use "Simplex LP" or "GRG Nonlinear" (either works for this size).
 
-6. **Click Solve**.
+6. [**Click Solve**]().
 
 <br>
 
