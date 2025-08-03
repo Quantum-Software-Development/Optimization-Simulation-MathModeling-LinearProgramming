@@ -2124,19 +2124,25 @@ Recalculating reduced costs confirms all $ \bar{c}_{ij} \geq 0 $. **Optimal solu
 
 <br>
 
-## Final Solution
+## [Step 5]():Final Solution
+
+🏄🏄🏄🏄🏄
+
+<br>
+
 | Variable   | Value |
 |------------|-------|
-| $ x_{13} $ | 100   |
+| $x_{13}$ | 100   |
 | $ x_{21} $ | 10    |
 | $ x_{22} $ | 130   |
 | $ x_{31} $ | 110   |
 | $ x_{33} $ | 50    |
 
+<br>
 
-**Total Cost:** $\boxed{10460}$.  
+[**Total Cost:**](): $\boxed{10460}$.  
 
-This is the optimal solution with all reduced costs non-negative.
+***This is the optimal solution with all reduced costs non-negative.***
 
 
 <br>
