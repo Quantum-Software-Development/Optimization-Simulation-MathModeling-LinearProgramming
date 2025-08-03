@@ -2398,7 +2398,7 @@ After running Solver, you should get a solution like:
 
 #### ➢ [Click here](https://github.com/Quantum-Software-Development/Optimization-Simulation-MathModeling-LinearProgramming/blob/96cd078e7dde5d17aee761c2b9e72054e65ea8d1/class__12-%20Shortest%20Path-Dijkstra's%20Algorithm/Workbook%20Shorter%20Path%20LP%20Dijkstra's%20Algorithm.pdf)to access Theoretical and Pratical Material. 
 
-#### ➣ [Click here]() and access Optimization and Simulation Shortest Path Exercises using Algorithm de DijkstraE, Excel Solver and Python 🐍
+#### ➣ [Click here]() and access Optimization and Simulation Shortest Path Exercises using Dijkstra's Algorithm, Excel Solver and Python 🐍
 
 - [Exercise_1](https://github.com/Quantum-Software-Development/Optimization-Simulation-MathModeling-LinearProgramming/tree/51325dc92386be458fc4e097f174144eed789627/class__12-%20Shortest%20Path-Dijkstra's%20Algorithm/Exercise_1-Dijkstra's%20Algorithm%20Step-by-Step%20Solution) - Dijkstra's Algorithm Step-by-Step Solution
 
