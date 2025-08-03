@@ -2161,7 +2161,7 @@ Recalculating reduced costs confirms all $\bar{c}_{ij} \geq 0$. [**Optimal solut
 
 ### Theoretical Explanation
 
-The **Assignment Problem** aims to allocate *n* tasks to *n* agents (machines, workers) at minimum cost, ensuring each task and agent is assigned exactly once.**
+The [**Assignment Problem**]() aims to allocate *n* tasks to *n* agents (machines, workers) at minimum cost, ensuring each task and agent is assigned exactly once.
 
  
 ### [Problem Statement]():
@@ -2179,20 +2179,23 @@ The **Assignment Problem** aims to allocate *n* tasks to *n* agents (machines, w
 
 <br>
 
+🏄🏄🏄🏄🏄
 
 ## 1. [Hungarian Method]() (Step by Step):
 
-### [**Step 1](): Subtract Row Minimums**
+### [Step 1](): Subtract Row Minimums
 
-#### Subtract the minimum value in each row from all elements in that row.
-
-- Row 1 min: 2 → [0, 2, 1]
-- Row 2 min: 1 → [0, 2, 1]
-- Row 3 min: 2 → [3, 0, 2]
+#### [Subtract the minimum value in each row from all elements in that row]().
 
 <br>
 
-#### [**Matrix after row subtraction:**]()
+- [Row 1 min: 2[() → [0, 2, 1]
+- [Row 2 min: 1[() → [0, 2, 1]
+- [Row 3 min: 2[() → [3, 0, 2]
+
+<br>
+
+#### [Matrix after row subtraction]():
 
 |         | M1 | M2 | M3 |
 |---------|----|----|----|
