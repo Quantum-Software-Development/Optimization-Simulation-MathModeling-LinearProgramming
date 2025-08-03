@@ -2121,15 +2121,13 @@ $$
 
 <br>
 
-🏄🏄🏄🏄🏄
-
 #### [4.6](). Final Optimality Check
 
 Recalculating reduced costs confirms all $\bar{c}_{ij} \geq 0$. [**Optimal solution reached**]().
 
 <br>
 
-## [Step 5]():Final Solution
+## [Step 5](): Final Solution
 
 <br>
 
