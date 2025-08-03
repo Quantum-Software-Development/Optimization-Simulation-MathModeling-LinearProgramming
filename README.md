@@ -2094,13 +2094,13 @@ Entering variable: $x_{13}$.
 
 🏄🏄🏄🏄🏄
 
-- **Supplies**:  
-  - Supplier 1: $ 100 $ ✔️  
-  - Supplier 2: $ 10 + 130 = 140 $ ✔️  
-  - Supplier 3: $ 110 + 50 = 160 $ ✔️  
+- [**Supplies**]():  
+  - Supplier 1: $100$ ✔️  
+  - Supplier 2: $10 + 130 = 140$ ✔️  
+  - Supplier 3: $110 + 50 = 160$ ✔️  
 
-- **Demands**:  
-  - Consumer 1: $ 10 + 110 = 120 $ ✔️  
+- [**Demands**]():  
+  - Consumer 1: $10 + 110 = 120$ ✔️  
   - Consumer 2: $ 130 $ ✔️  
   - Consumer 3: $ 100 + 50 = 150 $ ✔️  
 
