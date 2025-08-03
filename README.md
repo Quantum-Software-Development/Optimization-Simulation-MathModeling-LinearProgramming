@@ -2275,10 +2275,13 @@ The [**Assignment Problem**]() aims to allocate *n* tasks to *n* agents (machine
 
 <br>
 
-### [1.3](): Calculate the Total Cost
+#### [1.3](): Calculate the Total Cost
+
+<br>
 
 In cell **K2**, enter:
 
+<br>
 
 ```bash
 =SUMPRODUCT(B2:D4, G2:I4)
@@ -2292,15 +2295,13 @@ This formula multiplies each assignment by its cost and sums the total.
 
 #### [.4](): Add Row and Column Sums for Constraints
 
-<br>
-
-#### Row Sums (Each Task Assigned Once)
+#### [Row Sums]() (Each Task Assigned Once):
 
 - In **J2**: `=SUM(G2:I2)`
 - In **J3**: `=SUM(G3:I3)`
 - In **J4**: `=SUM(G4:I4)`
 
-#### Column Sums (Each Machine Assigned Once)
+#### [Column Sums]() (Each Machine Assigned Once):
 
 - In **G5**: `=SUM(G2:G4)`
 - In **H5**: `=SUM(H2:H4)`
