@@ -2355,7 +2355,6 @@ After running Solver, you should get a solution like:
 - [Task 2]() → **Machine 3** (cost 2)
 - [Task 3]() → **Machine 2** (cost 2)
 
-<br>  
 
 **Total minimum cost:** [6]().
 
@@ -2385,9 +2384,9 @@ After running Solver, you should get a solution like:
 #### [Step 4.1](): Result
 
 **The optimal assignment is:**
-- Task 1 to Machine 1 (cost 2)
-- Task 2 to Machine 3 (cost 2)
-- Task 3 to Machine 2 (cost 2)
+- [Task 1]() to Machine 1 (cost 2)
+- [Task 2]() to Machine 3 (cost 2)
+- [Task 3]() to Machine 2 (cost 2)
 
 <br>
 
