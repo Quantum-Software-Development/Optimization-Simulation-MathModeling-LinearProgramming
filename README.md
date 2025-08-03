@@ -2069,8 +2069,6 @@ Entering variable: $x_{13}$.
 
 #### [4.3](). Update Basic Variables
 
-🏄🏄🏄🏄🏄
-
 <br>
 
 | Variable     | Adjustment | New Value |
@@ -2078,16 +2076,23 @@ Entering variable: $x_{13}$.
 | $x_{13}$     | $+100$     | $100$     |
 | $x_{33}$     | $-100$     | $50$      |
 | $x_{31}$     | $+100$     | $110$     |
-| $ x_{11} $   | $-100$     | $0$       |
+| $x_{11}$     | $-100$     | $0$       |
 
 <br>
 
-**New Basic Variables:**  
-- $ x_{13} = 100 $  
+[**New Basic Variables**]():  
+
+- $x_{13} = 100$  
 - $ x_{21} = 10 $  
 - $ x_{22} = 130 $  
 - $ x_{31} = 110 $  
 - $ x_{33} = 50 $
+
+
+<br>
+
+🏄🏄🏄🏄🏄
+
 
 #### [4.4](). Verify Feasibility
 
