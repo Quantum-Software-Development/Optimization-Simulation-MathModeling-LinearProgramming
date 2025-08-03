@@ -2042,31 +2042,31 @@ v_1 &= 12, \quad v_2 = 18, \quad v_3 = 24 \\
 
 ### [**Conclusion**](): Negative reduced costs ($x_{12}$, $x_{13}$, $x_{23}$) mean the solution is **still not optimal**. Further iterations are required.
 
+
 <br>
+
 
 ## [Step 4]():  Final Iteration  (Optimal Solution)
 
 #### [4.1](). Select Entering Variable 
 
-<br>
-
 Most negative reduced cost: $\bar{c}_{13} = -6$.  
 
+
+Entering variable: $x_{13}$.
+
+
 <br>
 
-Entering variable:** $x_{13}$.
-
-<br>
-
-🏄🏄🏄🏄
+🏄🏄🏄🏄🏄
 
 #### [4.2](). Construct the Closed Loop
 
-- **Loop Path**: $ x_{13} \rightarrow x_{33} \rightarrow x_{31} \rightarrow x_{11} \rightarrow x_{13} $.  
+- **Loop Path**: $x_{13} \rightarrow x_{33} \rightarrow x_{31} \rightarrow x_{11} \rightarrow x_{13}$.  
 
 - **Adjustment Values**:  
-  - Subtract from $ x_{33} $ (150) and $ x_{11} $ (100).  
-  - Minimum value to adjust: $ \min(150, 100) = 100 $.
+  - Subtract from $x_{33}$ (150) and $x_{11}$ (100).  
+  - Minimum value to adjust: $\min(150, 100) = 100$.
  
 <br>
 
