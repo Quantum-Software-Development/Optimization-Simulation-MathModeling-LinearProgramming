@@ -2069,8 +2069,6 @@ Entering variable: $x_{13}$.
 
 #### [4.3](). Update Basic Variables
 
-🏄🏄🏄🏄🏄
-
 <br>
 
 | Variable     | Adjustment | New Value |
@@ -2078,29 +2076,37 @@ Entering variable: $x_{13}$.
 | $x_{13}$     | $+100$     | $100$     |
 | $x_{33}$     | $-100$     | $50$      |
 | $x_{31}$     | $+100$     | $110$     |
-| $ x_{11} $   | $-100$     | $0$       |
+| $x_{11}$     | $-100$     | $0$       |
 
 <br>
 
-**New Basic Variables:**  
-- $ x_{13} = 100 $  
-- $ x_{21} = 10 $  
-- $ x_{22} = 130 $  
-- $ x_{31} = 110 $  
-- $ x_{33} = 50 $
+[**New Basic Variables**]():  
+
+- $x_{13} = 100$  
+- $x_{21} = 10$  
+- $x_{22} = 130$  
+- $x_{31} = 110$  
+- $x_{33} = 50$
+
+<br>
 
 #### [4.4](). Verify Feasibility
 
-- **Supplies**:  
-  - Supplier 1: $ 100 $ ✔️  
-  - Supplier 2: $ 10 + 130 = 140 $ ✔️  
-  - Supplier 3: $ 110 + 50 = 160 $ ✔️  
+<br>
 
-- **Demands**:  
-  - Consumer 1: $ 10 + 110 = 120 $ ✔️  
-  - Consumer 2: $ 130 $ ✔️  
-  - Consumer 3: $ 100 + 50 = 150 $ ✔️  
+- [**Supplies**]():  
+  - [Supplier 1](): $100$ ✔️  
+  - [Supplier 2](): $10 + 130 = 140$ ✔️  
+  - [Supplier 3](): $110 + 50 = 160$ ✔️  
 
+<br>
+
+- [**Demands**]():  
+  - [Consumer 1](): $10 + 110 = 120$ ✔️  
+  - [Consumer 2](): $130$ ✔️  
+  - [Consumer 3](): $100 + 50 = 150$ ✔️  
+
+<br>
 
 #### [4.5](). Calculate Final Total Cost
 
@@ -2115,25 +2121,29 @@ $$
 
 <br>
 
-### [4.6](). Final Optimality Check
+#### [4.6](). Final Optimality Check
 
-Recalculating reduced costs confirms all $ \bar{c}_{ij} \geq 0 $. **Optimal solution reached**.
+Recalculating reduced costs confirms all $\bar{c}_{ij} \geq 0$. [**Optimal solution reached**]().
 
 <br>
 
-## Final Solution
+## [Step 5](): Final Solution
+
+<br>
+
 | Variable   | Value |
 |------------|-------|
-| $ x_{13} $ | 100   |
-| $ x_{21} $ | 10    |
-| $ x_{22} $ | 130   |
-| $ x_{31} $ | 110   |
-| $ x_{33} $ | 50    |
+| $x_{13}$   | 100   |
+| $x_{21}$   | 10    |
+| $x_{22}$   | 130   |
+| $x_{31}$   | 110   |
+| $x_{33}$   | 50    |
 
+<br>
 
-**Total Cost:** $\boxed{10460}$.  
+[**Total Cost:**](): $\boxed{10460}$.  
 
-This is the optimal solution with all reduced costs non-negative.
+***This is the optimal solution with all reduced costs non-negative.***
 
 
 <br>
@@ -2151,7 +2161,7 @@ This is the optimal solution with all reduced costs non-negative.
 
 ### Theoretical Explanation
 
-The **Assignment Problem** aims to allocate *n* tasks to *n* agents (machines, workers) at minimum cost, ensuring each task and agent is assigned exactly once.**
+The [**Assignment Problem**]() aims to allocate *n* tasks to *n* agents (machines, workers) at minimum cost, ensuring each task and agent is assigned exactly once.
 
  
 ### [Problem Statement]():
@@ -2169,20 +2179,25 @@ The **Assignment Problem** aims to allocate *n* tasks to *n* agents (machines, w
 
 <br>
 
+🏄🏄🏄🏄🏄
 
 ## 1. [Hungarian Method]() (Step by Step):
 
-### [**Step 1](): Subtract Row Minimums**
+### [Step 1](): Subtract Row Minimums
 
-#### Subtract the minimum value in each row from all elements in that row.
-
-- Row 1 min: 2 → [0, 2, 1]
-- Row 2 min: 1 → [0, 2, 1]
-- Row 3 min: 2 → [3, 0, 2]
+#### [Subtract the minimum value in each row from all elements in that row]().
 
 <br>
 
-#### [**Matrix after row subtraction:**]()
+- [Row 1 min: 2]() → [0, 2, 1]
+- [Row 2 min: 1]() → [0, 2, 1]
+- [Row 3 min: 2]() → [3, 0, 2]
+
+<br>
+
+#### [Matrix after row subtraction]():
+
+<br>
 
 |         | M1 | M2 | M3 |
 |---------|----|----|----|
@@ -2193,16 +2208,23 @@ The **Assignment Problem** aims to allocate *n* tasks to *n* agents (machines, w
 
 <br>
 
-### [**Step 2](): Subtract Column Minimums**
+### [Step 2](): Subtract Column Minimums
 
-### Problem Recap
+### [Problem Recap]():
+
+<br>
 
 - **3 tasks** must be assigned to **3 machines**.
 - Each task can be done by any machine, but with different costs.
 - Each task must be assigned to exactly one machine, and each machine to exactly one task.
 - **Goal:** Minimize total assignment cost.
 
-### Cost Table
+<br>  
+
+### [Cost Table]():
+
+<br>
+
 
 |         | Machine 1 | Machine 2 | Machine 3 |
 |---------|-----------|-----------|-----------|
