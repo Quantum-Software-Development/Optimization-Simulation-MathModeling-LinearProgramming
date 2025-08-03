@@ -2179,7 +2179,6 @@ The [**Assignment Problem**]() aims to allocate *n* tasks to *n* agents (machine
 
 <br>
 
-🏄🏄🏄🏄🏄
 
 ## 1. [Hungarian Method]() (Step by Step):
 
@@ -2235,10 +2234,15 @@ The [**Assignment Problem**]() aims to allocate *n* tasks to *n* agents (machine
 
 <br>
 
+🏄🏄🏄🏄🏄
 
-## Step 1: Set Up the Excel Spreadsheet
+### [Step 1](): Set Up the Excel Spreadsheet
 
-### 1. Enter the Cost Matrix
+<br>
+
+#### [1.1](): Enter the Cost Matrix
+
+<br>
 
 |     | B    | C    | D    |
 |-----|------|------|------|
@@ -2247,9 +2251,15 @@ The [**Assignment Problem**]() aims to allocate *n* tasks to *n* agents (machine
 | T2  |  1   |  3   |  2   |
 | T3  |  5   |  2   |  4   |
 
+<br>
+
 - Place this table in cells **B2:D4**.
 
-### 2. Create the Decision Variable Table
+<br>
+
+#### [1.2](): Create the Decision Variable Table
+
+<br>
 
 |     | G    | H    | I    |
 |-----|------|------|------|
@@ -2258,12 +2268,17 @@ The [**Assignment Problem**]() aims to allocate *n* tasks to *n* agents (machine
 | T2  | x21  | x22  | x23  |
 | T3  | x31  | x32  | x33  |
 
+<br>
+
 - Place this table in **G2:I4**.
 - These cells will be filled with 0 or 1 by the Solver (1 = assigned, 0 = not assigned).
 
-### 3. Calculate the Total Cost
+<br>
+
+### [1.3](): Calculate the Total Cost
 
 In cell **K2**, enter:
+
 
 ```bash
 =SUMPRODUCT(B2:D4, G2:I4)
@@ -2271,7 +2286,13 @@ In cell **K2**, enter:
 
 This formula multiplies each assignment by its cost and sums the total.
 
-### 4. Add Row and Column Sums for Constraints
+
+<br>
+
+
+#### [.4](): Add Row and Column Sums for Constraints
+
+<br>
 
 #### Row Sums (Each Task Assigned Once)
 
@@ -2285,9 +2306,10 @@ This formula multiplies each assignment by its cost and sums the total.
 - In **H5**: `=SUM(H2:H4)`
 - In **I5**: `=SUM(I2:I4)`
 
+
 <br>
 
-## Step 2: Configure Excel Solver
+### [Step 2](): Configure Excel Solver
 
 1. **Go to**: Data > Solver
 2. **Set Objective**:  
@@ -2304,9 +2326,12 @@ This formula multiplies each assignment by its cost and sums the total.
 
 <br>
 
-## Step 3: Solution Example
+### [Step 3](): Solution Example
 
 After running Solver, you should get a solution like:
+
+<br>
+
 
 |     | M1 | M2 | M3 | Row Sum |
 |-----|----|----|----|---------|
@@ -2314,6 +2339,8 @@ After running Solver, you should get a solution like:
 | T2  |  0 |  0 |  1 |   1     |
 | T3  |  0 |  1 |  0 |   1     |
 |Col Sum| 1|  1 |  1 |         |
+
+<br>
 
 - **Task 1 → Machine 1** (cost 2)
 - **Task 2 → Machine 3** (cost 2)
@@ -2325,6 +2352,8 @@ After running Solver, you should get a solution like:
 
 ## Excel Table and Formula Summary
 
+<br>
+
 |     | M1   | M2   | M3   | Row Sum |
 |-----|------|------|------|---------|
 | T1  | G2   | H2   | I2   | J2      |
@@ -2332,20 +2361,24 @@ After running Solver, you should get a solution like:
 | T3  | G4   | H4   | I4   | J4      |
 |Col Sum|G5 | H5   | I5   |         |
 
+<br>
+
 - **Total Cost:** `=SUMPRODUCT(B2:D4, G2:I4)`
 - **Row Sums:** `=SUM(G2:I2)`, etc.
 - **Column Sums:** `=SUM(G2:G4)`, etc.
 
 <br>
 
-### [Result]():
+### [Step 4]():Result
 
 **The optimal assignment is:**
 - Task 1 to Machine 1 (cost 2)
 - Task 2 to Machine 3 (cost 2)
 - Task 3 to Machine 2 (cost 2)
 
-### [**Total minimum cost:** 6]()
+<br>
+
+### **Total minimum cost:** [6]()
 
 
 <br><br>
