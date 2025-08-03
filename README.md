@@ -2055,10 +2055,7 @@ Most negative reduced cost: $\bar{c}_{13} = -6$.
 
 Entering variable: $x_{13}$.
 
-
 <br>
-
-🏄🏄🏄🏄🏄
 
 #### [4.2](). Construct the Closed Loop
 
@@ -2072,14 +2069,18 @@ Entering variable: $x_{13}$.
 
 #### [4.3](). Update Basic Variables
 
+🏄🏄🏄🏄🏄
+
 <br>
 
 | Variable     | Adjustment | New Value |
 |--------------|------------|-----------|
-| $ x_{13} $   | $+100$     | $100$     |
-| $ x_{33} $   | $-100$     | $50$      |
-| $ x_{31} $   | $+100$     | $110$     |
+| $x_{13}$     | $+100$     | $100$     |
+| $x_{33}$     | $-100$     | $50$      |
+| $x_{31}$     | $+100$     | $110$     |
 | $ x_{11} $   | $-100$     | $0$       |
+
+<br>
 
 **New Basic Variables:**  
 - $ x_{13} = 100 $  
