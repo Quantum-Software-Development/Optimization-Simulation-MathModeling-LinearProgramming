@@ -2334,7 +2334,6 @@ This formula multiplies each assignment by its cost and sums the total.
 
 <br>
 
-🏄🏄🏄🏄🏄
 
 ### [Step 3](): Solution Example
 
@@ -2362,7 +2361,9 @@ After running Solver, you should get a solution like:
 
 <br>
 
-## Excel Table and Formula Summary
+🏄🏄🏄🏄🏄
+
+### [Step 4](): Excel Table and Formula Summary
 
 <br>
 
@@ -2371,7 +2372,7 @@ After running Solver, you should get a solution like:
 | T1  | G2   | H2   | I2   | J2      |
 | T2  | G3   | H3   | I3   | J3      |
 | T3  | G4   | H4   | I4   | J4      |
-|Col Sum|G5 | H5   | I5   |         |
+|Col Sum|G5 | H5    | I5   |         |
 
 <br>
 
@@ -2381,7 +2382,7 @@ After running Solver, you should get a solution like:
 
 <br>
 
-### [Step 4]():Result
+#### [Step 4.1](): Result
 
 **The optimal assignment is:**
 - Task 1 to Machine 1 (cost 2)
