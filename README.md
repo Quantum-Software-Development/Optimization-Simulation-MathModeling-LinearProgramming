@@ -2360,7 +2360,6 @@ After running Solver, you should get a solution like:
 
 <br>
 
-🏄🏄🏄🏄🏄
 
 ### [Step 4](): Excel Table and Formula Summary
 
@@ -2388,7 +2387,6 @@ After running Solver, you should get a solution like:
 - [Task 2]() to Machine 3 (cost 2)
 - [Task 3]() to Machine 2 (cost 2)
 
-<br>
 
 ### **Total minimum cost:** [6]()
 
@@ -2408,7 +2406,7 @@ After running Solver, you should get a solution like:
 
 - [Exercise_3](https://github.com/Quantum-Software-Development/Optimization-Simulation-MathModeling-LinearProgramming/tree/cd9194aa220bb6f509ef57d4d3a37b6e296a8a51/class__12-%20Shortest%20Path-Dijkstra's%20Algorithm/Exerc_3-Applying%20Dijkstra's%20Algorithm%20to%20the%20Shortest%20Path%20Problem) - Applying Dijkstra's Algorithm to the Shortest Path Problem
 
-
+🏄🏄🏄🏄🏄
 
 ### 🚜 Under Construction
 
