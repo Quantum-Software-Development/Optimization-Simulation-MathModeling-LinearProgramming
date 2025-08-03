@@ -2092,12 +2092,14 @@ Entering variable: $x_{13}$.
 
 #### [4.4](). Verify Feasibility
 
-🏄🏄🏄🏄🏄
+<br>
 
 - [**Supplies**]():  
   - [Supplier 1](): $100$ ✔️  
   - [Supplier 2](): $10 + 130 = 140$ ✔️  
   - [Supplier 3](): $110 + 50 = 160$ ✔️  
+
+<br>
 
 - [**Demands**]():  
   - [Consumer 1](): $10 + 110 = 120$ ✔️  
@@ -2119,9 +2121,11 @@ $$
 
 <br>
 
-### [4.6](). Final Optimality Check
+🏄🏄🏄🏄🏄
 
-Recalculating reduced costs confirms all $ \bar{c}_{ij} \geq 0 $. **Optimal solution reached**.
+#### [4.6](). Final Optimality Check
+
+Recalculating reduced costs confirms all $\bar{c}_{ij} \geq 0$. [**Optimal solution reached**]().
 
 <br>
 
