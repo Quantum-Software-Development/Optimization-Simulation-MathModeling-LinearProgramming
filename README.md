@@ -2300,7 +2300,7 @@ This formula multiplies each assignment by its cost and sums the total.
 - In **J2**: `=SUM(G2:I2)`
 - In **J3**: `=SUM(G3:I3)`
 - In **J4**: `=SUM(G4:I4)`
-- 
+  
 
 #### [Column Sums]() (Each Machine Assigned Once):
 
@@ -2308,14 +2308,11 @@ This formula multiplies each assignment by its cost and sums the total.
 - In **H5**: `=SUM(H2:H4)`
 - In **I5**: `=SUM(I2:I4)`
 
-
 <br>
 
-🏄🏄🏄🏄🏄
 
 ### [Step 2](): Configure Excel Solver
 
-<br>
 
 1. [**Go to**](): Data > Solver
 
@@ -2337,6 +2334,8 @@ This formula multiplies each assignment by its cost and sums the total.
 
 <br>
 
+🏄🏄🏄🏄🏄
+
 ### [Step 3](): Solution Example
 
 After running Solver, you should get a solution like:
@@ -2353,11 +2352,13 @@ After running Solver, you should get a solution like:
 
 <br>
 
-- **Task 1 → Machine 1** (cost 2)
-- **Task 2 → Machine 3** (cost 2)
-- **Task 3 → Machine 2** (cost 2)
+- [Task 1]() → **Machine 1** (cost 2)
+- [Task 2]() → **Machine 3** (cost 2)
+- [Task 3]() → **Machine 2** (cost 2)
 
-**Total minimum cost:** 6
+<br>  
+
+**Total minimum cost:** [6]().
 
 <br>
 
@@ -2549,7 +2550,7 @@ Any contributions are highly appreciated.  You can contribute in two ways:
 
 ## Main Contributors
 
-- [Fabiana 🚀 Campanari](https://github.com/FabianaCampanari) 
+- [Fabiana ⚡️ Campanari](https://github.com/FabianaCampanari) 
 
 <br>
 
