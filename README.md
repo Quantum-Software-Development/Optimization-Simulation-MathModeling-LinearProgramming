@@ -2189,13 +2189,15 @@ The [**Assignment Problem**]() aims to allocate *n* tasks to *n* agents (machine
 
 <br>
 
-- [Row 1 min: 2[() → [0, 2, 1]
-- [Row 2 min: 1[() → [0, 2, 1]
-- [Row 3 min: 2[() → [3, 0, 2]
+- [Row 1 min: 2]() → [0, 2, 1]
+- [Row 2 min: 1]() → [0, 2, 1]
+- [Row 3 min: 2]() → [3, 0, 2]
 
 <br>
 
 #### [Matrix after row subtraction]():
+
+<br>
 
 |         | M1 | M2 | M3 |
 |---------|----|----|----|
@@ -2206,16 +2208,23 @@ The [**Assignment Problem**]() aims to allocate *n* tasks to *n* agents (machine
 
 <br>
 
-### [**Step 2](): Subtract Column Minimums**
+### [Step 2](): Subtract Column Minimums
 
-### Problem Recap
+### [Problem Recap]():
+
+<br>
 
 - **3 tasks** must be assigned to **3 machines**.
 - Each task can be done by any machine, but with different costs.
 - Each task must be assigned to exactly one machine, and each machine to exactly one task.
 - **Goal:** Minimize total assignment cost.
 
-### Cost Table
+<br>  
+
+### [Cost Table]():
+
+<br>
+
 
 |         | Machine 1 | Machine 2 | Machine 3 |
 |---------|-----------|-----------|-----------|
