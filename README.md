@@ -18,9 +18,15 @@
 ### <p align="center"> [![Sponsor Quantum Software Development](https://img.shields.io/badge/Sponsor-Quantum%20Software%20Development-brightgreen?logo=GitHub)](https://github.com/sponsors/Quantum-Software-Development)
 
 
+
+<!--Confidentiality statement -->
+
 <br><br>
 
-## ⚠️ [Important Notes]()
+# 
+
+
+### ⚠️ Heads Up
 
 
 - [Whenever possible](), projects and deliverables developed during the course will be made [publicly accessible]().
@@ -29,7 +35,14 @@
 
 - All activities and materials will strictly adhere to the [**academic and ethical guidelines of PUC-SP**](). Any content not authorized for public disclosure will remain [**confidential**]() and stored in [private repositories]().
 
-<br><br>
+
+# 
+
+<br><br><br>
+
+
+<!--END-->
+
 
 
 #### ➣ [Access Geogebra](https://www.geogebra.org/download?lang=pt)
