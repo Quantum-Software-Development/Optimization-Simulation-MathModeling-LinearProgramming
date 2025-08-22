@@ -19,29 +19,26 @@
 
 
 
-<!--Confidentiality statement -->
+<!--Confidentiality Statement-->
 
 <br><br>
 
-# 
-
+#
 
 ### ⚠️ Heads Up
 
+- [Whenever possible](), projects and deliverables developed during the course will be made [publicly accessible]().  
 
-- [Whenever possible](), projects and deliverables developed during the course will be made [publicly accessible]().
+- The course emphasizes [**practical, hands-on experience**]() with real datasets to simulate professional consulting scenarios in the fields of **Data Analysis and Data Mining** for partner organizations and institutions affiliated with the university.  
 
-- The course emphasizes [**practical, hands-on experience**]() with real datasets to emulate professional consulting scenarios in the field of Data Mining.
+- All activities and materials will strictly adhere to the [**academic and ethical guidelines of PUC-SP**](). Any content not authorized for public disclosure will remain [**confidential**]() and securely stored in [private repositories]().  
 
-- All activities and materials will strictly adhere to the [**academic and ethical guidelines of PUC-SP**](). Any content not authorized for public disclosure will remain [**confidential**]() and stored in [private repositories]().
-
-
-# 
+#
 
 <br><br><br>
 
+<!--End-->
 
-<!--END-->
 
 
 
