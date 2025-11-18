@@ -1,7 +1,7 @@
 
 <br>
 
-#  <p align="center">  Integrated Mathematics Projects For Busin
+#  <p align="center">  Integrated Mathematics Projects For Business
 ####  <p align="center">  LOGISTICS, FINANCE, CREDIT, ENGINEERING, HEALTH AND OTHERS
 #####  <p align="center">  [Optimization / Modeling and Simulation / Linear Programming / Graphic Method - Maximization and Minimization/ Simplex Algorithm / Matrix / Mathematical Modeling]()
 
@@ -10,6 +10,10 @@
 
 ### This Repo is focused on mathematical concepts, taught during the third semester of the Data Science and Artificial Intelligence bachelor's program at PUC-SP in 2025, under the instruction of [***Professor Doctor in Mathematics Daniel Rodrigues da Silva***](https://www.linkedin.com/in/daniel-rodrigues-048654a5/)
 
+
+<br><br>
+
+https://github.com/user-attachments/assets/e6724920-8944-4f83-aebb-f94b48e60bd6
 
 <br><br>
 
