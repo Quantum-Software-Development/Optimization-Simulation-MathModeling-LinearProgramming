@@ -11,20 +11,25 @@
 ### This Repo is focused on mathematical concepts, taught during the third semester of the Data Science and Artificial Intelligence bachelor's program at PUC-SP in 2025, under the instruction of [***Professor Doctor in Mathematics Daniel Rodrigues da Silva***](https://www.linkedin.com/in/daniel-rodrigues-048654a5/)
 
 
-<br><br>
+<br><br><br><br> 
+
 
 <div align="center">
 
-🎥 **Funny Functions**  
+####  ***Funny Functions***  
+
+<br>
 
 https://github.com/user-attachments/assets/e6724920-8944-4f83-aebb-f94b48e60bd6
 
 </div>
 
-🎶 Concerto grosso in B Minor, Op. 6 Allegro by George Frideric Handel.
-
-
 <br><br>
+
+####  🎶 Concerto grosso in B Minor, Op.6 - [***Allegro***]().* by [***George Frideric Handel***]().
+
+
+<br><br><br><br>
 
 
 <!--### <p align="center">  <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" width="46">  -->
