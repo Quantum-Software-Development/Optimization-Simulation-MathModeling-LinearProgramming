@@ -24,9 +24,9 @@ https://github.com/user-attachments/assets/e6724920-8944-4f83-aebb-f94b48e60bd6
 
 </div>
 
-<br><br>
+<br>
 
-####  🎶 Concerto grosso in B Minor, Op.6 - [***Allegro***]().* by [***George Frideric Handel***]().
+#### <div align="center">  🎶 Concerto grosso in B Minor, Op.6 - [***Allegro***]().* by [***George Frideric Handel***]().
 
 
 <br><br><br><br>
